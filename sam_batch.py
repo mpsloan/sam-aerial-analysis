@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
-import sys
 import random
 import os
 from segment_anything import SamAutomaticMaskGenerator
@@ -34,7 +33,7 @@ def main():
 
     image_directory = '../validation_dataset/images_v1/'
     all_images = [f for f in os.listdir(image_directory) if f.endswith('.png')]
-    selected_images = random.sample(all_images, 5)
+    selected_images = random.sample(all_images, 100)
 
     sam_checkpoint = "../segment-anything/sam_vit_h_4b8939.pth"
     model_type = "vit_h"
@@ -45,23 +44,26 @@ def main():
     sam.to(device=device)
 
     mask_generator = SamAutomaticMaskGenerator(sam)
+    os.makedirs('batch_results', exist_ok=True)  # output directory
 
-    for filename in selected_images:
+    for i, filename in enumerate(selected_images):
+        print(f"Processing {filename} ({i + 1}/{len(selected_images)})")
+
         image_path = os.path.join(image_directory, filename)
         image = cv2.imread(image_path)
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
         image = cv2.resize(image, (1024, 1024))  # avoid large images for local runs
         masks = mask_generator.generate(image)
 
-        # Visualize the number of masks and how they map to the image
-        print(len(masks))
+        print(f"Number of masks: {len(masks)}\n")
 
-        plt.figure(figsize=(10,10))
+        # Visualize the number of masks and how they map to the image
+        plt.figure(figsize=(10, 10))
         plt.imshow(image)
         show_anns(masks)
         plt.axis('off')
-        os.makedirs('batch_results', exist_ok=True)
         plt.savefig(f'batch_results/{filename}_auto_masks.png', bbox_inches='tight', dpi=150)
+        plt.close()
 
 
 if __name__ == "__main__":
