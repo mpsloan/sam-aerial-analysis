@@ -1,0 +1,116 @@
+{
+  "overall_miou": 0.0387,
+  "total_gt_objects": 3304,
+  "total_images_evaluated": 5,
+  "per_category_miou": {
+    "storage_tank": 0.2079,
+    "Large_Vehicle": 0.2588,
+    "Small_Vehicle": 0.0056,
+    "ship": 0.2572,
+    "Harbor": 0.4637,
+    "Roundabout": 0.0164,
+    "baseball_diamond": 0.5572,
+    "Bridge": 0.0016,
+    "Swimming_pool": 0.0,
+    "Soccer_ball_field": 0.5982
+  },
+  "per_image_results": [
+    {
+      "filename": "P2155.png",
+      "miou": 0.3428508546926903,
+      "num_gt_objects": 134,
+      "num_sam_masks": 163,
+      "inference_time": 9.5,
+      "categories": [
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "Large_Vehicle": 0.3826,
+        "Small_Vehicle": 0.1924
+      }
+    },
+    {
+      "filename": "P2059.png",
+      "miou": 0.051950198337253214,
+      "num_gt_objects": 540,
+      "num_sam_masks": 185,
+      "inference_time": 10.3,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.3053,
+        "storage_tank": 0.2495,
+        "Large_Vehicle": 0.0678,
+        "Small_Vehicle": 0.0102,
+        "Harbor": 0.4637
+      }
+    },
+    {
+      "filename": "P2477.png",
+      "miou": 0.004458076498382847,
+      "num_gt_objects": 249,
+      "num_sam_masks": 195,
+      "inference_time": 16.2,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0135,
+        "Small_Vehicle": 0.0041,
+        "Roundabout": 0.0246
+      }
+    },
+    {
+      "filename": "P1410.png",
+      "miou": 0.006221845775955645,
+      "num_gt_objects": 2258,
+      "num_sam_masks": 114,
+      "inference_time": 11.4,
+      "categories": [
+        "ship",
+        "baseball_diamond",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Roundabout",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "ship": 0.0007,
+        "baseball_diamond": 0.5572,
+        "Bridge": 0.0016,
+        "Large_Vehicle": 0.0006,
+        "Small_Vehicle": 0.0006,
+        "Swimming_pool": 0.0,
+        "Roundabout": 0.0,
+        "Soccer_ball_field": 0.5982
+      }
+    },
+    {
+      "filename": "P1877.png",
+      "miou": 0.3154868033016301,
+      "num_gt_objects": 123,
+      "num_sam_masks": 146,
+      "inference_time": 15.9,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.3206,
+        "Small_Vehicle": 0.2786
+      }
+    }
+  ]
+}
