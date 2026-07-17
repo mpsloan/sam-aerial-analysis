@@ -2,7 +2,6 @@ import numpy as np
 import cv2
 import json
 import os
-import random
 import time
 from segment_anything import SamAutomaticMaskGenerator
 from segment_anything import sam_model_registry
@@ -48,13 +47,11 @@ def compute_iou(mask1, mask2):
 
 
 def main():
-    random.seed(42)
 
     image_directory = '../validation_dataset/images_v1/'
     annotation_path = '../validation_dataset/Annotations/iSAID_val.json'
 
     all_images = [f for f in os.listdir(image_directory) if f.endswith('.png')]
-    selected_images = random.sample(all_images, 100)
 
     annotations_by_file, image_id_to_size, _ = load_annotations(annotation_path)
 
@@ -71,8 +68,8 @@ def main():
     image_miou_results = []
     global_category_ious = {}
 
-    for i, filename in enumerate(selected_images):
-        print(f"Processing {filename} ({i + 1}/{len(selected_images)})")
+    for i, filename in enumerate(all_images):
+        print(f"Processing {filename} ({i + 1}/{len(all_images)})")
 
         image_path = os.path.join(image_directory, filename)
         image = cv2.imread(image_path)
