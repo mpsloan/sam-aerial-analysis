@@ -1,35 +1,1068 @@
 {
-  "overall_miou": 0.0387,
-  "total_gt_objects": 3304,
-  "total_images_evaluated": 5,
+  "overall_miou": 0.0742,
+  "total_gt_objects": 116649,
+  "total_images_evaluated": 458,
   "per_category_miou": {
-    "storage_tank": 0.2079,
-    "Large_Vehicle": 0.2588,
-    "Small_Vehicle": 0.0056,
-    "ship": 0.2572,
-    "Harbor": 0.4637,
-    "Roundabout": 0.0164,
-    "baseball_diamond": 0.5572,
-    "Bridge": 0.0016,
-    "Swimming_pool": 0.0,
-    "Soccer_ball_field": 0.5982
+    "tennis_court": 0.7167,
+    "Small_Vehicle": 0.0267,
+    "ship": 0.1536,
+    "storage_tank": 0.0745,
+    "Bridge": 0.0235,
+    "Harbor": 0.2191,
+    "Large_Vehicle": 0.2581,
+    "Soccer_ball_field": 0.5374,
+    "Helicopter": 0.1548,
+    "Swimming_pool": 0.111,
+    "Roundabout": 0.1817,
+    "plane": 0.1609,
+    "basketball_court": 0.3164,
+    "Ground_Track_Field": 0.4542,
+    "baseball_diamond": 0.4455
   },
   "per_image_results": [
     {
-      "filename": "P2155.png",
-      "miou": 0.3428508546926903,
-      "num_gt_objects": 134,
-      "num_sam_masks": 163,
-      "inference_time": 9.5,
+      "filename": "P2098.png",
+      "miou": 0.8943398130218149,
+      "num_gt_objects": 23,
+      "num_sam_masks": 206,
+      "inference_time": 12.6,
       "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.902,
+        "Small_Vehicle": 0.7258
+      }
+    },
+    {
+      "filename": "P1234.png",
+      "miou": 0.09114656880064936,
+      "num_gt_objects": 145,
+      "num_sam_masks": 215,
+      "inference_time": 9.4,
+      "categories": [
+        "ship",
         "storage_tank",
+        "Bridge",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0002,
+        "storage_tank": 0.121,
+        "Bridge": 0.0028,
+        "Harbor": 0.0013
+      }
+    },
+    {
+      "filename": "P2701.png",
+      "miou": 0.03099094233034383,
+      "num_gt_objects": 570,
+      "num_sam_masks": 164,
+      "inference_time": 10.0,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0306,
+        "storage_tank": 0.0363,
+        "Large_Vehicle": 0.0006,
+        "Small_Vehicle": 0.0015,
+        "Harbor": 0.5235
+      }
+    },
+    {
+      "filename": "P0499.png",
+      "miou": 0.7565893004379225,
+      "num_gt_objects": 14,
+      "num_sam_masks": 96,
+      "inference_time": 17.2,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9369,
+        "Small_Vehicle": 0.598,
+        "Soccer_ball_field": 0.6916
+      }
+    },
+    {
+      "filename": "P1787.png",
+      "miou": 0.5999352996159212,
+      "num_gt_objects": 59,
+      "num_sam_masks": 210,
+      "inference_time": 17.3,
+      "categories": [
         "Large_Vehicle",
         "Small_Vehicle"
       ],
       "per_category_miou": {
+        "Large_Vehicle": 0.7113,
+        "Small_Vehicle": 0.4994
+      }
+    },
+    {
+      "filename": "P1022.png",
+      "miou": 0.49136850602991217,
+      "num_gt_objects": 17,
+      "num_sam_masks": 111,
+      "inference_time": 12.2,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0532,
+        "Small_Vehicle": 0.0223,
+        "Harbor": 0.6817
+      }
+    },
+    {
+      "filename": "P1750.png",
+      "miou": 0.007418833553694726,
+      "num_gt_objects": 3,
+      "num_sam_masks": 25,
+      "inference_time": 13.8,
+      "categories": [
+        "storage_tank"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0074
+      }
+    },
+    {
+      "filename": "P2271.png",
+      "miou": 0.00036474535036178004,
+      "num_gt_objects": 2828,
+      "num_sam_masks": 115,
+      "inference_time": 11.3,
+      "categories": [
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Helicopter",
+        "Swimming_pool",
+        "Roundabout",
+        "plane"
+      ],
+      "per_category_miou": {
         "storage_tank": 0.0,
-        "Large_Vehicle": 0.3826,
-        "Small_Vehicle": 0.1924
+        "Large_Vehicle": 0.0004,
+        "Small_Vehicle": 0.0003,
+        "Helicopter": 0.0793,
+        "Swimming_pool": 0.0,
+        "Roundabout": 0.0,
+        "plane": 0.0042
+      }
+    },
+    {
+      "filename": "P0466.png",
+      "miou": 0.9348129907695533,
+      "num_gt_objects": 15,
+      "num_sam_masks": 100,
+      "inference_time": 19.1,
+      "categories": [
+        "tennis_court",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9319,
+        "Soccer_ball_field": 0.9755
+      }
+    },
+    {
+      "filename": "P0300.png",
+      "miou": 0.06744024228977182,
+      "num_gt_objects": 43,
+      "num_sam_masks": 43,
+      "inference_time": 33.9,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.9592,
+        "Small_Vehicle": 0.0011,
+        "Harbor": 0.9484
+      }
+    },
+    {
+      "filename": "P2488.png",
+      "miou": 0.0015687532360494317,
+      "num_gt_objects": 3714,
+      "num_sam_masks": 267,
+      "inference_time": 20.9,
+      "categories": [
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "Large_Vehicle": 0.0034,
+        "Small_Vehicle": 0.0011,
+        "Roundabout": 0.8827
+      }
+    },
+    {
+      "filename": "P1156.png",
+      "miou": 0.49409268255793076,
+      "num_gt_objects": 13,
+      "num_sam_masks": 49,
+      "inference_time": 30.0,
+      "categories": [
+        "plane"
+      ],
+      "per_category_miou": {
+        "plane": 0.4941
+      }
+    },
+    {
+      "filename": "P2477.png",
+      "miou": 0.004458076498382847,
+      "num_gt_objects": 249,
+      "num_sam_masks": 195,
+      "inference_time": 43.9,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0135,
+        "Small_Vehicle": 0.0041,
+        "Roundabout": 0.0246
+      }
+    },
+    {
+      "filename": "P1397.png",
+      "miou": 0.003440468519249553,
+      "num_gt_objects": 596,
+      "num_sam_masks": 39,
+      "inference_time": 17.5,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Helicopter",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0013,
+        "Helicopter": 0.0,
+        "plane": 0.0038
+      }
+    },
+    {
+      "filename": "P1432.png",
+      "miou": 0.008480625336530085,
+      "num_gt_objects": 1125,
+      "num_sam_masks": 322,
+      "inference_time": 13.7,
+      "categories": [
+        "ship",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "ship": 0.0054,
+        "basketball_court": 0.1132,
+        "Ground_Track_Field": 0.7591,
+        "Bridge": 0.2364,
+        "Large_Vehicle": 0.0775,
+        "Small_Vehicle": 0.0023,
+        "Soccer_ball_field": 0.564
+      }
+    },
+    {
+      "filename": "P0704.png",
+      "miou": 0.18880402055620085,
+      "num_gt_objects": 414,
+      "num_sam_masks": 142,
+      "inference_time": 22.7,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.249,
+        "Large_Vehicle": 0.058,
+        "Small_Vehicle": 0.0229,
+        "Swimming_pool": 0.9265,
+        "Harbor": 0.0199
+      }
+    },
+    {
+      "filename": "P0936.png",
+      "miou": 0.10799163098350525,
+      "num_gt_objects": 74,
+      "num_sam_masks": 129,
+      "inference_time": 27.1,
+      "categories": [
+        "ship",
+        "Bridge",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0973,
+        "Bridge": 0.511,
+        "Small_Vehicle": 0.0813,
+        "Swimming_pool": 0.4177,
+        "Harbor": 0.1328
+      }
+    },
+    {
+      "filename": "P0261.png",
+      "miou": 0.05994989251040313,
+      "num_gt_objects": 197,
+      "num_sam_masks": 140,
+      "inference_time": 30.8,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "ship": 0.4678,
+        "Large_Vehicle": 0.5688,
+        "Small_Vehicle": 0.0509,
+        "plane": 0.475
+      }
+    },
+    {
+      "filename": "P2310.png",
+      "miou": 0.05079307167369361,
+      "num_gt_objects": 47,
+      "num_sam_masks": 107,
+      "inference_time": 15.2,
+      "categories": [
+        "ship",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "ship": 0.3318,
+        "Small_Vehicle": 0.0173
+      }
+    },
+    {
+      "filename": "P1619.png",
+      "miou": 0.09861901375059269,
+      "num_gt_objects": 6,
+      "num_sam_masks": 149,
+      "inference_time": 15.7,
+      "categories": [
+        "Bridge",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Bridge": 0.015,
+        "Roundabout": 0.2658
+      }
+    },
+    {
+      "filename": "P2462.png",
+      "miou": 0.0014801875070258085,
+      "num_gt_objects": 629,
+      "num_sam_masks": 136,
+      "inference_time": 20.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0002,
+        "Small_Vehicle": 0.0003,
+        "Soccer_ball_field": 0.7465
+      }
+    },
+    {
+      "filename": "P1143.png",
+      "miou": 0.25216477418633326,
+      "num_gt_objects": 48,
+      "num_sam_masks": 136,
+      "inference_time": 19.3,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0354,
+        "Small_Vehicle": 0.0504,
+        "plane": 0.6228
+      }
+    },
+    {
+      "filename": "P0249.png",
+      "miou": 0.21660196573718254,
+      "num_gt_objects": 61,
+      "num_sam_masks": 131,
+      "inference_time": 18.7,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "ship": 0.2414,
+        "Small_Vehicle": 0.1452,
+        "plane": 0.3026
+      }
+    },
+    {
+      "filename": "P2502.png",
+      "miou": 0.00382914693278227,
+      "num_gt_objects": 2791,
+      "num_sam_masks": 184,
+      "inference_time": 18.1,
+      "categories": [
+        "basketball_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "basketball_court": 0.0606,
+        "Ground_Track_Field": 0.7617,
+        "Large_Vehicle": 0.0007,
+        "Small_Vehicle": 0.0014,
+        "Swimming_pool": 0.0,
+        "Soccer_ball_field": 0.7499
+      }
+    },
+    {
+      "filename": "P0329.png",
+      "miou": 0.669318108032828,
+      "num_gt_objects": 27,
+      "num_sam_masks": 138,
+      "inference_time": 20.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.8751,
+        "Small_Vehicle": 0.5483
+      }
+    },
+    {
+      "filename": "P1751.png",
+      "miou": 0.07103408445043753,
+      "num_gt_objects": 16,
+      "num_sam_masks": 92,
+      "inference_time": 11.0,
+      "categories": [
+        "Ground_Track_Field",
+        "Bridge",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Ground_Track_Field": 0.8943,
+        "Bridge": 0.0808,
+        "Roundabout": 0.0
+      }
+    },
+    {
+      "filename": "P1023.png",
+      "miou": 0.07642127831041155,
+      "num_gt_objects": 80,
+      "num_sam_masks": 123,
+      "inference_time": 22.4,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0374,
+        "Large_Vehicle": 0.0001,
+        "Small_Vehicle": 0.0062,
+        "Harbor": 0.208
+      }
+    },
+    {
+      "filename": "P1786.png",
+      "miou": 0.010914008187736362,
+      "num_gt_objects": 794,
+      "num_sam_masks": 133,
+      "inference_time": 16.4,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "tennis_court",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0041,
+        "storage_tank": 0.4195,
+        "tennis_court": 0.1745,
+        "basketball_court": 0.1953,
+        "Ground_Track_Field": 0.4542,
+        "Large_Vehicle": 0.0076,
+        "Small_Vehicle": 0.0018,
+        "Soccer_ball_field": 0.2788,
+        "Harbor": 0.0
+      }
+    },
+    {
+      "filename": "P0117.png",
+      "miou": 0.05518423156578715,
+      "num_gt_objects": 36,
+      "num_sam_masks": 119,
+      "inference_time": 25.7,
+      "categories": [
+        "baseball_diamond",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.9168,
+        "Small_Vehicle": 0.0045
+      }
+    },
+    {
+      "filename": "P2714.png",
+      "miou": 0.0246406480218157,
+      "num_gt_objects": 65,
+      "num_sam_masks": 180,
+      "inference_time": 10.1,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "Ground_Track_Field",
+        "Bridge",
+        "Roundabout",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "ship": 0.0041,
+        "storage_tank": 0.0,
+        "Ground_Track_Field": 0.0605,
+        "Bridge": 0.0009,
+        "Roundabout": 0.0,
+        "Soccer_ball_field": 0.0359
+      }
+    },
+    {
+      "filename": "P0665.png",
+      "miou": 0.37360627429229254,
+      "num_gt_objects": 50,
+      "num_sam_masks": 166,
+      "inference_time": 31.0,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.9625,
+        "tennis_court": 0.9339,
+        "Ground_Track_Field": 0.685,
+        "Large_Vehicle": 0.4887,
+        "Small_Vehicle": 0.2383,
+        "Soccer_ball_field": 0.6289
+      }
+    },
+    {
+      "filename": "P1547.png",
+      "miou": 0.20106199308110057,
+      "num_gt_objects": 4,
+      "num_sam_masks": 299,
+      "inference_time": 16.3,
+      "categories": [
+        "baseball_diamond",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.4021,
+        "Bridge": 0.0
+      }
+    },
+    {
+      "filename": "P0659.png",
+      "miou": 0.9546742608669939,
+      "num_gt_objects": 5,
+      "num_sam_masks": 76,
+      "inference_time": 23.7,
+      "categories": [
+        "tennis_court",
+        "basketball_court"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9547,
+        "basketball_court": 0.9546
+      }
+    },
+    {
+      "filename": "P1584.png",
+      "miou": 0.0725421283305924,
+      "num_gt_objects": 21,
+      "num_sam_masks": 181,
+      "inference_time": 21.2,
+      "categories": [
+        "storage_tank",
+        "baseball_diamond",
+        "Ground_Track_Field",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.001,
+        "baseball_diamond": 0.056,
+        "Ground_Track_Field": 0.4227,
+        "Soccer_ball_field": 0.0
+      }
+    },
+    {
+      "filename": "P1586.png",
+      "miou": 0.1449858295305821,
+      "num_gt_objects": 14,
+      "num_sam_masks": 69,
+      "inference_time": 38.1,
+      "categories": [
+        "storage_tank",
+        "baseball_diamond",
+        "Ground_Track_Field",
+        "Roundabout",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.017,
+        "baseball_diamond": 0.0001,
+        "Ground_Track_Field": 0.4436,
+        "Roundabout": 0.1017,
+        "Soccer_ball_field": 0.9079
+      }
+    },
+    {
+      "filename": "P0897.png",
+      "miou": 0.006535453722724426,
+      "num_gt_objects": 2169,
+      "num_sam_masks": 67,
+      "inference_time": 52.4,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0086,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0002,
+        "Harbor": 0.0018
+      }
+    },
+    {
+      "filename": "P0673.png",
+      "miou": 0.4813693346478245,
+      "num_gt_objects": 12,
+      "num_sam_masks": 122,
+      "inference_time": 47.9,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "basketball_court",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.8216,
+        "tennis_court": 0.8766,
+        "basketball_court": 0.0786,
+        "Soccer_ball_field": 0.9768
+      }
+    },
+    {
+      "filename": "P1579.png",
+      "miou": 0.027471824641943927,
+      "num_gt_objects": 14,
+      "num_sam_masks": 289,
+      "inference_time": 58.1,
+      "categories": [
+        "storage_tank",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0292,
+        "Roundabout": 0.0045
+      }
+    },
+    {
+      "filename": "P1960.png",
+      "miou": 0.3847845664137809,
+      "num_gt_objects": 173,
+      "num_sam_masks": 347,
+      "inference_time": 29.5,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.6162,
+        "Small_Vehicle": 0.1992
+      }
+    },
+    {
+      "filename": "P1021.png",
+      "miou": 0.3643895785835475,
+      "num_gt_objects": 25,
+      "num_sam_masks": 123,
+      "inference_time": 27.7,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.6985,
+        "Small_Vehicle": 0.0842,
+        "Harbor": 0.5102
+      }
+    },
+    {
+      "filename": "P1009.png",
+      "miou": 0.052885308563422107,
+      "num_gt_objects": 591,
+      "num_sam_masks": 301,
+      "inference_time": 15.7,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0453,
+        "Large_Vehicle": 0.0044,
+        "Small_Vehicle": 0.0227,
+        "Swimming_pool": 0.0,
+        "Harbor": 0.0745
+      }
+    },
+    {
+      "filename": "P1380.png",
+      "miou": 0.008146296980568273,
+      "num_gt_objects": 1127,
+      "num_sam_masks": 241,
+      "inference_time": 13.8,
+      "categories": [
+        "tennis_court",
+        "Ground_Track_Field",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Roundabout",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.3206,
+        "Ground_Track_Field": 0.9513,
+        "Bridge": 0.0,
+        "Large_Vehicle": 0.0002,
+        "Small_Vehicle": 0.0006,
+        "Swimming_pool": 0.0319,
+        "Roundabout": 0.3671,
+        "Soccer_ball_field": 0.8111
+      }
+    },
+    {
+      "filename": "P2689.png",
+      "miou": 0.0004485307689111825,
+      "num_gt_objects": 7436,
+      "num_sam_masks": 184,
+      "inference_time": 14.4,
+      "categories": [
+        "storage_tank",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout",
+        "plane"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "Bridge": 0.1916,
+        "Large_Vehicle": 0.0005,
+        "Small_Vehicle": 0.0004,
+        "Roundabout": 0.0,
+        "plane": 0.0051
+      }
+    },
+    {
+      "filename": "P0075.png",
+      "miou": 0.49152042593182244,
+      "num_gt_objects": 4,
+      "num_sam_masks": 165,
+      "inference_time": 33.4,
+      "categories": [
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Small_Vehicle": 0.071,
+        "Swimming_pool": 0.9126,
+        "Roundabout": 0.9115
+      }
+    },
+    {
+      "filename": "P0712.png",
+      "miou": 0.7700450411237892,
+      "num_gt_objects": 72,
+      "num_sam_masks": 150,
+      "inference_time": 19.2,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "ship": 0.0225,
+        "Large_Vehicle": 0.8517,
+        "Small_Vehicle": 0.6222
+      }
+    },
+    {
+      "filename": "P0060.png",
+      "miou": 0.012091979491247322,
+      "num_gt_objects": 530,
+      "num_sam_masks": 298,
+      "inference_time": 11.7,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool"
+      ],
+      "per_category_miou": {
+        "ship": 0.0037,
+        "Large_Vehicle": 0.0021,
+        "Small_Vehicle": 0.0045,
+        "Swimming_pool": 0.0329
+      }
+    },
+    {
+      "filename": "P0706.png",
+      "miou": 0.1970680817489631,
+      "num_gt_objects": 752,
+      "num_sam_masks": 284,
+      "inference_time": 14.0,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.2171,
+        "Small_Vehicle": 0.1184,
+        "Harbor": 0.0007
+      }
+    },
+    {
+      "filename": "P2111.png",
+      "miou": 0.4548883190688269,
+      "num_gt_objects": 60,
+      "num_sam_masks": 126,
+      "inference_time": 36.9,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.3988,
+        "Small_Vehicle": 0.5039
+      }
+    },
+    {
+      "filename": "P1356.png",
+      "miou": 0.0006145634620866816,
+      "num_gt_objects": 97,
+      "num_sam_masks": 119,
+      "inference_time": 17.2,
+      "categories": [
+        "ship",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "ship": 0.0005,
+        "Bridge": 0.0007
+      }
+    },
+    {
+      "filename": "P1342.png",
+      "miou": 0.03951947884052467,
+      "num_gt_objects": 62,
+      "num_sam_masks": 146,
+      "inference_time": 13.4,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "ship": 0.0002,
+        "storage_tank": 0.0,
+        "basketball_court": 0.0495,
+        "Ground_Track_Field": 0.3821,
+        "Bridge": 0.0029
+      }
+    },
+    {
+      "filename": "P0262.png",
+      "miou": 0.03439791911394241,
+      "num_gt_objects": 821,
+      "num_sam_masks": 111,
+      "inference_time": 14.3,
+      "categories": [
+        "ship",
+        "Bridge",
+        "Small_Vehicle",
+        "Roundabout",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0327,
+        "Bridge": 0.0001,
+        "Small_Vehicle": 0.0188,
+        "Roundabout": 0.144,
+        "Harbor": 0.2774
+      }
+    },
+    {
+      "filename": "P1154.png",
+      "miou": 0.5057513015395542,
+      "num_gt_objects": 24,
+      "num_sam_masks": 80,
+      "inference_time": 19.4,
+      "categories": [
+        "Small_Vehicle",
+        "Helicopter",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Small_Vehicle": 0.0,
+        "Helicopter": 0.6125,
+        "plane": 0.5488
+      }
+    },
+    {
+      "filename": "P2449.png",
+      "miou": 0.004336427470747739,
+      "num_gt_objects": 1438,
+      "num_sam_masks": 143,
+      "inference_time": 36.3,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0224,
+        "Small_Vehicle": 0.0033,
+        "Roundabout": 0.6972
+      }
+    },
+    {
+      "filename": "P1829.png",
+      "miou": 0.4049441995310733,
+      "num_gt_objects": 89,
+      "num_sam_masks": 245,
+      "inference_time": 14.5,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.5612,
+        "Small_Vehicle": 0.3505
+      }
+    },
+    {
+      "filename": "P1752.png",
+      "miou": 0.12741749571852196,
+      "num_gt_objects": 13,
+      "num_sam_masks": 101,
+      "inference_time": 12.9,
+      "categories": [
+        "Ground_Track_Field",
+        "Bridge",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Ground_Track_Field": 0.8483,
+        "Bridge": 0.404,
+        "Roundabout": 0.0
+      }
+    },
+    {
+      "filename": "P0882.png",
+      "miou": 0.361121375907275,
+      "num_gt_objects": 76,
+      "num_sam_masks": 168,
+      "inference_time": 20.9,
+      "categories": [
+        "tennis_court",
+        "basketball_court",
+        "Small_Vehicle",
+        "Swimming_pool"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9059,
+        "basketball_court": 0.8152,
+        "Small_Vehicle": 0.1993,
+        "Swimming_pool": 0.699
+      }
+    },
+    {
+      "filename": "P0128.png",
+      "miou": 0.1753222883560938,
+      "num_gt_objects": 232,
+      "num_sam_masks": 203,
+      "inference_time": 18.2,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.3345,
+        "Large_Vehicle": 0.1658,
+        "Small_Vehicle": 0.0087,
+        "Harbor": 0.318
       }
     },
     {
@@ -37,7 +1070,7 @@
       "miou": 0.051950198337253214,
       "num_gt_objects": 540,
       "num_sam_masks": 185,
-      "inference_time": 10.3,
+      "inference_time": 18.5,
       "categories": [
         "ship",
         "storage_tank",
@@ -54,20 +1087,5688 @@
       }
     },
     {
-      "filename": "P2477.png",
-      "miou": 0.004458076498382847,
-      "num_gt_objects": 249,
-      "num_sam_masks": 195,
-      "inference_time": 16.2,
+      "filename": "P0841.png",
+      "miou": 0.01394026459121294,
+      "num_gt_objects": 632,
+      "num_sam_masks": 104,
+      "inference_time": 20.0,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0018,
+        "Small_Vehicle": 0.0079,
+        "plane": 0.1722
+      }
+    },
+    {
+      "filename": "P1583.png",
+      "miou": 0.08561372476504665,
+      "num_gt_objects": 30,
+      "num_sam_masks": 212,
+      "inference_time": 24.1,
+      "categories": [
+        "baseball_diamond",
+        "plane"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.358,
+        "plane": 0.0027
+      }
+    },
+    {
+      "filename": "P0110.png",
+      "miou": 0.2365709679457636,
+      "num_gt_objects": 18,
+      "num_sam_masks": 66,
+      "inference_time": 25.2,
+      "categories": [
+        "ship",
+        "tennis_court",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.2477,
+        "tennis_court": 0.2083,
+        "Small_Vehicle": 0.0,
+        "Harbor": 0.8061
+      }
+    },
+    {
+      "filename": "P0104.png",
+      "miou": 0.32841493298555685,
+      "num_gt_objects": 71,
+      "num_sam_masks": 270,
+      "inference_time": 17.8,
+      "categories": [
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Small_Vehicle": 0.3115,
+        "Swimming_pool": 0.8915,
+        "Roundabout": 0.9341
+      }
+    },
+    {
+      "filename": "P1030.png",
+      "miou": 0.08930870776712915,
+      "num_gt_objects": 196,
+      "num_sam_masks": 230,
+      "inference_time": 34.4,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0842,
+        "Small_Vehicle": 0.0122,
+        "Swimming_pool": 0.0419,
+        "Harbor": 0.1947
+      }
+    },
+    {
+      "filename": "P2539.png",
+      "miou": 0.001210945753024125,
+      "num_gt_objects": 2863,
+      "num_sam_masks": 112,
+      "inference_time": 22.4,
+      "categories": [
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "Large_Vehicle": 0.0009,
+        "Small_Vehicle": 0.0009,
+        "Roundabout": 0.4286
+      }
+    },
+    {
+      "filename": "P1742.png",
+      "miou": 0.1906214449728286,
+      "num_gt_objects": 17,
+      "num_sam_masks": 119,
+      "inference_time": 12.2,
+      "categories": [
+        "baseball_diamond",
+        "Ground_Track_Field",
+        "plane"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.2067,
+        "Ground_Track_Field": 0.5231,
+        "plane": 0.003
+      }
+    },
+    {
+      "filename": "P1178.png",
+      "miou": 0.010143850052122682,
+      "num_gt_objects": 387,
+      "num_sam_masks": 124,
+      "inference_time": 24.8,
+      "categories": [
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.1408,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0044,
+        "plane": 0.1357
+      }
+    },
+    {
+      "filename": "P2129.png",
+      "miou": 0.34607411637095853,
+      "num_gt_objects": 103,
+      "num_sam_masks": 243,
+      "inference_time": 57.0,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.6688,
+        "Small_Vehicle": 0.1494
+      }
+    },
+    {
+      "filename": "P1434.png",
+      "miou": 0.31020627014530594,
+      "num_gt_objects": 151,
+      "num_sam_masks": 250,
+      "inference_time": 23.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.3066,
+        "Small_Vehicle": 0.3179
+      }
+    },
+    {
+      "filename": "P1390.png",
+      "miou": 0.10979698552172265,
+      "num_gt_objects": 317,
+      "num_sam_masks": 65,
+      "inference_time": 44.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Helicopter",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0,
+        "Helicopter": 0.0033,
+        "plane": 0.1233
+      }
+    },
+    {
+      "filename": "P1384.png",
+      "miou": 0.0013912904042259057,
+      "num_gt_objects": 3589,
+      "num_sam_masks": 143,
+      "inference_time": 13.9,
+      "categories": [
+        "storage_tank",
+        "baseball_diamond",
+        "tennis_court",
+        "basketball_court",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Helicopter",
+        "Swimming_pool",
+        "Roundabout",
+        "Soccer_ball_field",
+        "plane"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0013,
+        "baseball_diamond": 0.0,
+        "tennis_court": 0.0,
+        "basketball_court": 0.0,
+        "Bridge": 0.0,
+        "Large_Vehicle": 0.0003,
+        "Small_Vehicle": 0.0004,
+        "Helicopter": 0.0,
+        "Swimming_pool": 0.0,
+        "Roundabout": 0.0,
+        "Soccer_ball_field": 0.878,
+        "plane": 0.0007
+      }
+    },
+    {
+      "filename": "P1623.png",
+      "miou": 0.0016674119483378771,
+      "num_gt_objects": 28,
+      "num_sam_masks": 93,
+      "inference_time": 24.6,
+      "categories": [
+        "ship",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "ship": 0.0019,
+        "Bridge": 0.0
+      }
+    },
+    {
+      "filename": "P1179.png",
+      "miou": 0.0010507655272742702,
+      "num_gt_objects": 3199,
+      "num_sam_masks": 124,
+      "inference_time": 16.8,
+      "categories": [
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Helicopter",
+        "Swimming_pool",
+        "Roundabout",
+        "plane"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0384,
+        "Large_Vehicle": 0.0016,
+        "Small_Vehicle": 0.0007,
+        "Helicopter": 0.0,
+        "Swimming_pool": 0.0047,
+        "Roundabout": 0.0,
+        "plane": 0.007
+      }
+    },
+    {
+      "filename": "P1838.png",
+      "miou": 0.5010632530199727,
+      "num_gt_objects": 53,
+      "num_sam_masks": 165,
+      "inference_time": 32.9,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.4505,
+        "Small_Vehicle": 0.5781
+      }
+    },
+    {
+      "filename": "P2504.png",
+      "miou": 0.007916729215979714,
+      "num_gt_objects": 796,
+      "num_sam_masks": 193,
+      "inference_time": 26.4,
+      "categories": [
+        "tennis_court",
+        "Ground_Track_Field",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Roundabout",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.5806,
+        "Ground_Track_Field": 0.9511,
+        "Bridge": 0.0,
+        "Large_Vehicle": 0.0039,
+        "Small_Vehicle": 0.001,
+        "Swimming_pool": 0.0008,
+        "Roundabout": 0.8897,
+        "Soccer_ball_field": 0.9329
+      }
+    },
+    {
+      "filename": "P1958.png",
+      "miou": 0.2604672143640575,
+      "num_gt_objects": 179,
+      "num_sam_masks": 252,
+      "inference_time": 21.8,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.4892,
+        "Small_Vehicle": 0.1269
+      }
+    },
+    {
+      "filename": "P0887.png",
+      "miou": 0.3516563934438897,
+      "num_gt_objects": 291,
+      "num_sam_masks": 189,
+      "inference_time": 35.1,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.3828,
+        "Small_Vehicle": 0.2439,
+        "Harbor": 0.1174
+      }
+    },
+    {
+      "filename": "P1541.png",
+      "miou": 0.00730062275583204,
+      "num_gt_objects": 5,
+      "num_sam_masks": 181,
+      "inference_time": 43.7,
+      "categories": [
+        "Bridge",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Bridge": 0.0,
+        "plane": 0.0182
+      }
+    },
+    {
+      "filename": "P1569.png",
+      "miou": 0.012872283024014953,
+      "num_gt_objects": 6,
+      "num_sam_masks": 103,
+      "inference_time": 19.4,
+      "categories": [
+        "baseball_diamond",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.0126,
+        "Bridge": 0.014
+      }
+    },
+    {
+      "filename": "P0844.png",
+      "miou": 0.7716493967006938,
+      "num_gt_objects": 11,
+      "num_sam_masks": 118,
+      "inference_time": 21.4,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9554,
+        "Small_Vehicle": 0.2816
+      }
+    },
+    {
+      "filename": "P1596.png",
+      "miou": 0.5070763096348742,
+      "num_gt_objects": 3,
+      "num_sam_masks": 65,
+      "inference_time": 49.7,
+      "categories": [
+        "storage_tank",
+        "Ground_Track_Field",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0378,
+        "Ground_Track_Field": 0.8886,
+        "Soccer_ball_field": 0.5949
+      }
+    },
+    {
+      "filename": "P1219.png",
+      "miou": 8.614241352813002e-06,
+      "num_gt_objects": 3,
+      "num_sam_masks": 32,
+      "inference_time": 65.2,
+      "categories": [
+        "ship"
+      ],
+      "per_category_miou": {
+        "ship": 0.0
+      }
+    },
+    {
+      "filename": "P1225.png",
+      "miou": 0.04378152562228223,
+      "num_gt_objects": 21,
+      "num_sam_masks": 185,
+      "inference_time": 18.9,
+      "categories": [
+        "ship",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "ship": 0.0447,
+        "Bridge": 0.0414
+      }
+    },
+    {
+      "filename": "P1557.png",
+      "miou": 0.0,
+      "num_gt_objects": 2,
+      "num_sam_masks": 345,
+      "inference_time": 30.7,
+      "categories": [
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "Bridge": 0.0
+      }
+    },
+    {
+      "filename": "P0305.png",
+      "miou": 0.6334436682975025,
+      "num_gt_objects": 28,
+      "num_sam_masks": 136,
+      "inference_time": 17.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.6778,
+        "Small_Vehicle": 0.6088
+      }
+    },
+    {
+      "filename": "P1806.png",
+      "miou": 0.743125800211256,
+      "num_gt_objects": 52,
+      "num_sam_masks": 144,
+      "inference_time": 16.6,
+      "categories": [
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.8767,
+        "Large_Vehicle": 0.8116,
+        "Small_Vehicle": 0.5095
+      }
+    },
+    {
+      "filename": "P1184.png",
+      "miou": 0.005607302499180799,
+      "num_gt_objects": 610,
+      "num_sam_masks": 121,
+      "inference_time": 13.0,
+      "categories": [
+        "storage_tank",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Helicopter",
+        "Soccer_ball_field",
+        "plane"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "Ground_Track_Field": 0.9261,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0006,
+        "Helicopter": 0.0093,
+        "Soccer_ball_field": 0.4167,
+        "plane": 0.0023
+      }
+    },
+    {
+      "filename": "P1147.png",
+      "miou": 0.23520138527191328,
+      "num_gt_objects": 39,
+      "num_sam_masks": 105,
+      "inference_time": 31.2,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0361,
+        "Small_Vehicle": 0.0736,
+        "plane": 0.5729
+      }
+    },
+    {
+      "filename": "P0259.png",
+      "miou": 0.15307585337135177,
+      "num_gt_objects": 108,
+      "num_sam_masks": 94,
+      "inference_time": 53.7,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "ship": 0.7632,
+        "Small_Vehicle": 0.0312,
+        "plane": 0.2102
+      }
+    },
+    {
+      "filename": "P0932.png",
+      "miou": 0.34123433809594605,
+      "num_gt_objects": 18,
+      "num_sam_masks": 114,
+      "inference_time": 35.7,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1985,
+        "Small_Vehicle": 0.0033,
+        "Harbor": 0.5057
+      }
+    },
+    {
+      "filename": "P1386.png",
+      "miou": 0.07584956739140132,
+      "num_gt_objects": 224,
+      "num_sam_masks": 191,
+      "inference_time": 42.8,
+      "categories": [
+        "ship",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0726,
+        "Harbor": 0.1381
+      }
+    },
+    {
+      "filename": "P0715.png",
+      "miou": 0.17490946316158065,
+      "num_gt_objects": 96,
+      "num_sam_masks": 155,
+      "inference_time": 47.1,
+      "categories": [
+        "ship",
+        "basketball_court",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1636,
+        "basketball_court": 0.5375,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0534,
+        "Swimming_pool": 0.2942,
+        "Harbor": 0.3575
+      }
+    },
+    {
+      "filename": "P0729.png",
+      "miou": 0.4645750013138939,
+      "num_gt_objects": 46,
+      "num_sam_masks": 124,
+      "inference_time": 45.7,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.4225,
+        "Small_Vehicle": 0.6868,
+        "Swimming_pool": 0.9159,
+        "Harbor": 0.4047
+      }
+    },
+    {
+      "filename": "P1754.png",
+      "miou": 0.0571574880698151,
+      "num_gt_objects": 15,
+      "num_sam_masks": 55,
+      "inference_time": 14.8,
+      "categories": [
+        "storage_tank",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0951,
+        "Roundabout": 0.0002
+      }
+    },
+    {
+      "filename": "P0476.png",
+      "miou": 0.7153383066688849,
+      "num_gt_objects": 94,
+      "num_sam_masks": 241,
+      "inference_time": 27.8,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "ship": 0.6485,
+        "Large_Vehicle": 0.788,
+        "Small_Vehicle": 0.5574
+      }
+    },
+    {
+      "filename": "P1973.png",
+      "miou": 0.44979307521768036,
+      "num_gt_objects": 108,
+      "num_sam_masks": 161,
+      "inference_time": 73.0,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.5039,
+        "Small_Vehicle": 0.2116
+      }
+    },
+    {
+      "filename": "P1230.png",
+      "miou": 0.0,
+      "num_gt_objects": 11,
+      "num_sam_masks": 181,
+      "inference_time": 33.2,
+      "categories": [
+        "Ground_Track_Field",
+        "Bridge",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Ground_Track_Field": 0.0,
+        "Bridge": 0.0,
+        "plane": 0.0
+      }
+    },
+    {
+      "filename": "P1542.png",
+      "miou": 0.0,
+      "num_gt_objects": 1,
+      "num_sam_masks": 180,
+      "inference_time": 13.4,
+      "categories": [
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "Bridge": 0.0
+      }
+    },
+    {
+      "filename": "P0660.png",
+      "miou": 0.6503728166245021,
+      "num_gt_objects": 21,
+      "num_sam_masks": 206,
+      "inference_time": 55.8,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle",
+        "Swimming_pool"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.8733,
+        "Small_Vehicle": 0.5069,
+        "Swimming_pool": 0.8936
+      }
+    },
+    {
+      "filename": "P2088.png",
+      "miou": 0.44981081281034274,
+      "num_gt_objects": 90,
+      "num_sam_masks": 174,
+      "inference_time": 37.1,
+      "categories": [
+        "tennis_court",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.7451,
+        "Large_Vehicle": 0.7616,
+        "Small_Vehicle": 0.3804
+      }
+    },
+    {
+      "filename": "P1581.png",
+      "miou": 0.0810248784698006,
+      "num_gt_objects": 12,
+      "num_sam_masks": 268,
+      "inference_time": 40.9,
+      "categories": [
+        "storage_tank",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0178,
+        "Roundabout": 0.2075
+      }
+    },
+    {
+      "filename": "P2789.png",
+      "miou": 0.10395293519389195,
+      "num_gt_objects": 146,
+      "num_sam_masks": 71,
+      "inference_time": 53.4,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1834,
+        "Large_Vehicle": 0.0924,
+        "Small_Vehicle": 0.0061,
+        "Harbor": 0.3413
+      }
+    },
+    {
+      "filename": "P1257.png",
+      "miou": 0.11316911556714337,
+      "num_gt_objects": 17,
+      "num_sam_masks": 118,
+      "inference_time": 36.9,
+      "categories": [
+        "ship",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Bridge",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "ship": 0.0049,
+        "basketball_court": 0.0001,
+        "Ground_Track_Field": 0.616,
+        "Bridge": 0.0037,
+        "Roundabout": 0.0136
+      }
+    },
+    {
+      "filename": "P0161.png",
+      "miou": 0.0015958416205907949,
+      "num_gt_objects": 3304,
+      "num_sam_masks": 210,
+      "inference_time": 35.5,
+      "categories": [
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Ground_Track_Field": 0.0263,
+        "Large_Vehicle": 0.0106,
+        "Small_Vehicle": 0.001,
+        "Swimming_pool": 0.0385,
+        "plane": 0.049
+      }
+    },
+    {
+      "filename": "P0175.png",
+      "miou": 0.743517988531666,
+      "num_gt_objects": 12,
+      "num_sam_masks": 112,
+      "inference_time": 35.2,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.8301,
+        "Small_Vehicle": 0.3106
+      }
+    },
+    {
+      "filename": "P0613.png",
+      "miou": 0.5252198768589387,
+      "num_gt_objects": 8,
+      "num_sam_masks": 68,
+      "inference_time": 76.3,
+      "categories": [
+        "ship",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.2815,
+        "Harbor": 0.6714
+      }
+    },
+    {
+      "filename": "P0411.png",
+      "miou": 0.09588363934769836,
+      "num_gt_objects": 74,
+      "num_sam_masks": 189,
+      "inference_time": 79.6,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0901,
+        "Small_Vehicle": 0.0497,
+        "Harbor": 0.2902
+      }
+    },
+    {
+      "filename": "P0377.png",
+      "miou": 0.8124790509626166,
+      "num_gt_objects": 6,
+      "num_sam_masks": 52,
+      "inference_time": 56.9,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.8364,
+        "Small_Vehicle": 0.6931
+      }
+    },
+    {
+      "filename": "P1860.png",
+      "miou": 0.40332226872468785,
+      "num_gt_objects": 57,
+      "num_sam_masks": 180,
+      "inference_time": 52.3,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "ship": 0.5952,
+        "Large_Vehicle": 0.3378,
+        "Small_Vehicle": 0.3851
+      }
+    },
+    {
+      "filename": "P0559.png",
+      "miou": 0.7024140217587046,
+      "num_gt_objects": 48,
+      "num_sam_masks": 162,
+      "inference_time": 41.5,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.8324,
+        "Small_Vehicle": 0.4858
+      }
+    },
+    {
+      "filename": "P1647.png",
+      "miou": 0.15770068411605853,
+      "num_gt_objects": 27,
+      "num_sam_masks": 206,
+      "inference_time": 17.5,
+      "categories": [
+        "storage_tank",
+        "baseball_diamond",
+        "Ground_Track_Field",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.1353,
+        "baseball_diamond": 0.2125,
+        "Ground_Track_Field": 0.8954,
+        "Bridge": 0.0
+      }
+    },
+    {
+      "filename": "P0217.png",
+      "miou": 0.46805177584446045,
+      "num_gt_objects": 41,
+      "num_sam_masks": 141,
+      "inference_time": 27.0,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Helicopter",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.6883,
+        "Small_Vehicle": 0.0394,
+        "Helicopter": 0.4567,
+        "plane": 0.6743
+      }
+    },
+    {
+      "filename": "P1492.png",
+      "miou": 0.4993816473723581,
+      "num_gt_objects": 6,
+      "num_sam_masks": 56,
+      "inference_time": 32.8,
+      "categories": [
+        "Large_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0,
+        "plane": 0.5993
+      }
+    },
+    {
+      "filename": "P0968.png",
+      "miou": 0.3425554636918645,
+      "num_gt_objects": 14,
+      "num_sam_masks": 80,
+      "inference_time": 35.7,
+      "categories": [
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "Small_Vehicle": 0.0185,
+        "Harbor": 0.5226
+      }
+    },
+    {
+      "filename": "P1323.png",
+      "miou": 0.0003317352055249879,
+      "num_gt_objects": 29,
+      "num_sam_masks": 279,
+      "inference_time": 30.0,
+      "categories": [
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "Bridge": 0.0003
+      }
+    },
+    {
+      "filename": "P2617.png",
+      "miou": 0.8653924685124582,
+      "num_gt_objects": 39,
+      "num_sam_masks": 125,
+      "inference_time": 32.9,
+      "categories": [
+        "Large_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.8654
+      }
+    },
+    {
+      "filename": "P1478.png",
+      "miou": 0.10352394778815176,
+      "num_gt_objects": 1460,
+      "num_sam_masks": 218,
+      "inference_time": 17.0,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.3069,
+        "Small_Vehicle": 0.0813
+      }
+    },
+    {
+      "filename": "P0969.png",
+      "miou": 0.5736224424091028,
+      "num_gt_objects": 46,
+      "num_sam_masks": 96,
+      "inference_time": 21.5,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.8085,
+        "Small_Vehicle": 0.5084
+      }
+    },
+    {
+      "filename": "P0799.png",
+      "miou": 0.13614718071623047,
+      "num_gt_objects": 524,
+      "num_sam_masks": 203,
+      "inference_time": 29.5,
+      "categories": [
+        "ship",
+        "tennis_court",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1468,
+        "tennis_court": 0.9221,
+        "Small_Vehicle": 0.0397,
+        "Swimming_pool": 0.8142,
+        "Harbor": 0.2799
+      }
+    },
+    {
+      "filename": "P0564.png",
+      "miou": 0.3121013038941606,
+      "num_gt_objects": 16,
+      "num_sam_masks": 100,
+      "inference_time": 40.2,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.2739,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.2529,
+        "Swimming_pool": 0.6449,
+        "Harbor": 0.3411
+      }
+    },
+    {
+      "filename": "P0558.png",
+      "miou": 0.31667170151741453,
+      "num_gt_objects": 11,
+      "num_sam_masks": 49,
+      "inference_time": 22.4,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1383,
+        "Small_Vehicle": 0.0061,
+        "Harbor": 0.4001
+      }
+    },
+    {
+      "filename": "P2429.png",
+      "miou": 0.017697941758628318,
+      "num_gt_objects": 91,
+      "num_sam_masks": 168,
+      "inference_time": 54.0,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "ship": 0.0562,
+        "storage_tank": 0.0,
+        "Bridge": 0.0,
+        "Large_Vehicle": 0.002,
+        "Small_Vehicle": 0.0003,
+        "Roundabout": 0.0
+      }
+    },
+    {
+      "filename": "P1134.png",
+      "miou": 0.7117728386960764,
+      "num_gt_objects": 4,
+      "num_sam_masks": 49,
+      "inference_time": 57.5,
+      "categories": [
+        "Large_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.6934,
+        "plane": 0.7301
+      }
+    },
+    {
+      "filename": "P1732.png",
+      "miou": 0.08480553961416297,
+      "num_gt_objects": 19,
+      "num_sam_masks": 208,
+      "inference_time": 33.6,
+      "categories": [
+        "baseball_diamond",
+        "Ground_Track_Field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.0256,
+        "Ground_Track_Field": 0.3068
+      }
+    },
+    {
+      "filename": "P1518.png",
+      "miou": 0.004325037372136352,
+      "num_gt_objects": 8,
+      "num_sam_masks": 99,
+      "inference_time": 19.1,
+      "categories": [
+        "storage_tank",
+        "baseball_diamond",
+        "Ground_Track_Field",
+        "Bridge",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "baseball_diamond": 0.004,
+        "Ground_Track_Field": 0.0152,
+        "Bridge": 0.0029,
+        "Harbor": 0.0034
+      }
+    },
+    {
+      "filename": "P2011.png",
+      "miou": 0.6401021501582318,
+      "num_gt_objects": 27,
+      "num_sam_masks": 270,
+      "inference_time": 47.8,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "Ground_Track_Field",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.9404,
+        "tennis_court": 0.892,
+        "Ground_Track_Field": 0.9515,
+        "Small_Vehicle": 0.3016,
+        "Swimming_pool": 0.7821,
+        "Soccer_ball_field": 0.5864
+      }
+    },
+    {
+      "filename": "P1242.png",
+      "miou": 0.048459434750120496,
+      "num_gt_objects": 293,
+      "num_sam_masks": 126,
+      "inference_time": 28.6,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "Bridge",
+        "Roundabout",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0821,
+        "storage_tank": 0.048,
+        "Bridge": 0.0,
+        "Roundabout": 0.0033,
+        "Harbor": 0.0
+      }
+    },
+    {
+      "filename": "P0837.png",
+      "miou": 0.5112314551128243,
+      "num_gt_objects": 253,
+      "num_sam_masks": 234,
+      "inference_time": 36.6,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.52,
+        "Large_Vehicle": 0.0098,
+        "Small_Vehicle": 0.2491,
+        "Harbor": 0.0691
+      }
+    },
+    {
+      "filename": "P0189.png",
+      "miou": 0.7607508033049568,
+      "num_gt_objects": 67,
+      "num_sam_masks": 194,
+      "inference_time": 59.1,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.8044,
+        "Small_Vehicle": 0.6919
+      }
+    },
+    {
+      "filename": "P1283.png",
+      "miou": 0.00010407756854299687,
+      "num_gt_objects": 5,
+      "num_sam_masks": 34,
+      "inference_time": 60.0,
+      "categories": [
+        "ship",
+        "Roundabout",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0001,
+        "Roundabout": 0.0001,
+        "Harbor": 0.0002
+      }
+    },
+    {
+      "filename": "P1240.png",
+      "miou": 0.12113501453784806,
+      "num_gt_objects": 20,
+      "num_sam_masks": 205,
+      "inference_time": 39.2,
+      "categories": [
+        "storage_tank",
+        "Ground_Track_Field",
+        "Bridge",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "Ground_Track_Field": 0.4681,
+        "Bridge": 0.0069,
+        "Roundabout": 0.0
+      }
+    },
+    {
+      "filename": "P1268.png",
+      "miou": 0.0012285464024031155,
+      "num_gt_objects": 16,
+      "num_sam_masks": 161,
+      "inference_time": 20.6,
+      "categories": [
+        "ship",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "ship": 0.0016,
+        "basketball_court": 0.0031,
+        "Ground_Track_Field": 0.0,
+        "Bridge": 0.001
+      }
+    },
+    {
+      "filename": "P0604.png",
+      "miou": 0.3667570730581243,
+      "num_gt_objects": 45,
+      "num_sam_masks": 201,
+      "inference_time": 62.9,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.397,
+        "Small_Vehicle": 0.2629,
+        "Swimming_pool": 0.8261,
+        "Harbor": 0.6
+      }
+    },
+    {
+      "filename": "P1095.png",
+      "miou": 0.058636112935447876,
+      "num_gt_objects": 96,
+      "num_sam_masks": 37,
+      "inference_time": 106.5,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0099,
+        "Small_Vehicle": 0.0,
+        "Swimming_pool": 0.2921,
+        "Harbor": 0.0865
+      }
+    },
+    {
+      "filename": "P1903.png",
+      "miou": 0.1075888895943105,
+      "num_gt_objects": 152,
+      "num_sam_masks": 190,
+      "inference_time": 30.4,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.8172,
+        "tennis_court": 0.9151,
+        "Ground_Track_Field": 0.6693,
+        "Large_Vehicle": 0.0963,
+        "Small_Vehicle": 0.0391,
+        "Soccer_ball_field": 0.5105
+      }
+    },
+    {
+      "filename": "P0348.png",
+      "miou": 0.3231265668941805,
+      "num_gt_objects": 8,
+      "num_sam_masks": 64,
+      "inference_time": 39.7,
+      "categories": [
+        "ship",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.2551,
+        "Harbor": 0.364
+      }
+    },
+    {
+      "filename": "P2239.png",
+      "miou": 0.2728041222458982,
+      "num_gt_objects": 58,
+      "num_sam_masks": 91,
+      "inference_time": 25.0,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.5784,
+        "Small_Vehicle": 0.1967,
+        "plane": 0.5999
+      }
+    },
+    {
+      "filename": "P0374.png",
+      "miou": 0.5339404156891774,
+      "num_gt_objects": 39,
+      "num_sam_masks": 193,
+      "inference_time": 26.6,
+      "categories": [
+        "baseball_diamond",
+        "basketball_court",
+        "Small_Vehicle",
+        "Swimming_pool"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.8566,
+        "basketball_court": 0.9551,
+        "Small_Vehicle": 0.4795,
+        "Swimming_pool": 0.8972
+      }
+    },
+    {
+      "filename": "P2563.png",
+      "miou": 0.26038615781718344,
+      "num_gt_objects": 20,
+      "num_sam_masks": 199,
+      "inference_time": 57.5,
+      "categories": [
+        "tennis_court",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.2237,
+        "basketball_court": 0.2915,
+        "Ground_Track_Field": 0.9801,
+        "Large_Vehicle": 0.627,
+        "Small_Vehicle": 0.015,
+        "Soccer_ball_field": 0.9523
+      }
+    },
+    {
+      "filename": "P2577.png",
+      "miou": 0.5848528812428582,
+      "num_gt_objects": 10,
+      "num_sam_masks": 147,
+      "inference_time": 74.8,
+      "categories": [
+        "tennis_court",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.565,
+        "Large_Vehicle": 0.5509,
+        "Small_Vehicle": 0.7921
+      }
+    },
+    {
+      "filename": "P1693.png",
+      "miou": 0.4811656498527084,
+      "num_gt_objects": 9,
+      "num_sam_masks": 107,
+      "inference_time": 40.9,
+      "categories": [
+        "baseball_diamond",
+        "Ground_Track_Field",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.4564,
+        "Ground_Track_Field": 0.9101,
+        "Roundabout": 0.2283
+      }
+    },
+    {
+      "filename": "P1877.png",
+      "miou": 0.3154868033016301,
+      "num_gt_objects": 123,
+      "num_sam_masks": 146,
+      "inference_time": 34.9,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.3206,
+        "Small_Vehicle": 0.2786
+      }
+    },
+    {
+      "filename": "P1122.png",
+      "miou": 0.10181747109121325,
+      "num_gt_objects": 123,
+      "num_sam_masks": 119,
+      "inference_time": 22.5,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0432,
+        "Small_Vehicle": 0.0204,
+        "plane": 0.6639
+      }
+    },
+    {
+      "filename": "P1888.png",
+      "miou": 0.580209820233852,
+      "num_gt_objects": 71,
+      "num_sam_masks": 115,
+      "inference_time": 39.4,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.6274,
+        "Small_Vehicle": 0.46
+      }
+    },
+    {
+      "filename": "P1650.png",
+      "miou": 0.4016456402400598,
+      "num_gt_objects": 5,
+      "num_sam_masks": 97,
+      "inference_time": 22.9,
+      "categories": [
+        "baseball_diamond",
+        "Ground_Track_Field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.34,
+        "Ground_Track_Field": 0.6484
+      }
+    },
+    {
+      "filename": "P0228.png",
+      "miou": 0.8187527480401153,
+      "num_gt_objects": 15,
+      "num_sam_masks": 82,
+      "inference_time": 50.3,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "Small_Vehicle",
+        "Swimming_pool"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.9855,
+        "tennis_court": 0.8207,
+        "Small_Vehicle": 0.7413,
+        "Swimming_pool": 0.7062
+      }
+    },
+    {
+      "filename": "P2365.png",
+      "miou": 0.021781239687239547,
+      "num_gt_objects": 102,
+      "num_sam_masks": 131,
+      "inference_time": 50.2,
+      "categories": [
+        "tennis_court",
+        "basketball_court",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.0,
+        "basketball_court": 0.0,
+        "Bridge": 0.4199,
+        "Large_Vehicle": 0.001,
+        "Small_Vehicle": 0.0011,
+        "Soccer_ball_field": 0.2873
+      }
+    },
+    {
+      "filename": "P2198.png",
+      "miou": 0.5995882551932071,
+      "num_gt_objects": 155,
+      "num_sam_masks": 230,
+      "inference_time": 46.0,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.7473,
+        "Small_Vehicle": 0.5465
+      }
+    },
+    {
+      "filename": "P1452.png",
+      "miou": 0.4304156598366129,
+      "num_gt_objects": 80,
+      "num_sam_masks": 246,
+      "inference_time": 40.4,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "ship": 0.8216,
+        "storage_tank": 0.0465,
+        "Large_Vehicle": 0.5527,
+        "Small_Vehicle": 0.7142
+      }
+    },
+    {
+      "filename": "P0764.png",
+      "miou": 0.4061612608945117,
+      "num_gt_objects": 137,
+      "num_sam_masks": 312,
+      "inference_time": 23.0,
+      "categories": [
+        "ship",
+        "basketball_court",
+        "Bridge",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.3548,
+        "basketball_court": 0.8983,
+        "Bridge": 0.8437,
+        "Small_Vehicle": 0.4093,
+        "Harbor": 0.4806
+      }
+    },
+    {
+      "filename": "P2167.png",
+      "miou": 0.5479473505369613,
+      "num_gt_objects": 11,
+      "num_sam_masks": 47,
+      "inference_time": 25.7,
+      "categories": [
+        "storage_tank",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.6027,
+        "Small_Vehicle": 0.0
+      }
+    },
+    {
+      "filename": "P0770.png",
+      "miou": 0.1410365834211929,
+      "num_gt_objects": 173,
+      "num_sam_masks": 356,
+      "inference_time": 37.2,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.7606,
+        "tennis_court": 0.8376,
+        "basketball_court": 0.8825,
+        "Ground_Track_Field": 0.9845,
+        "Large_Vehicle": 0.0117,
+        "Small_Vehicle": 0.0429,
+        "Swimming_pool": 0.5297,
+        "Soccer_ball_field": 0.5984
+      }
+    },
+    {
+      "filename": "P2166.png",
+      "miou": 0.3268016261254793,
+      "num_gt_objects": 15,
+      "num_sam_masks": 55,
+      "inference_time": 29.6,
+      "categories": [
+        "basketball_court",
+        "Ground_Track_Field",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "basketball_court": 0.2355,
+        "Ground_Track_Field": 0.6605,
+        "Small_Vehicle": 0.3299
+      }
+    },
+    {
+      "filename": "P0003.png",
+      "miou": 0.6895561153960513,
+      "num_gt_objects": 59,
+      "num_sam_masks": 201,
+      "inference_time": 23.9,
+      "categories": [
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.7169,
+        "Large_Vehicle": 0.7438,
+        "Small_Vehicle": 0.5676
+      }
+    },
+    {
+      "filename": "P1679.png",
+      "miou": 0.35951621069791795,
+      "num_gt_objects": 5,
+      "num_sam_masks": 334,
+      "inference_time": 17.5,
+      "categories": [
+        "baseball_diamond",
+        "Ground_Track_Field",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.114,
+        "Ground_Track_Field": 0.5612,
+        "Bridge": 0.0
+      }
+    },
+    {
+      "filename": "P1651.png",
+      "miou": 0.09286117889797482,
+      "num_gt_objects": 23,
+      "num_sam_masks": 134,
+      "inference_time": 11.3,
+      "categories": [
+        "storage_tank",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.1256,
+        "Bridge": 0.0
+      }
+    },
+    {
+      "filename": "P1137.png",
+      "miou": 0.5284299944469706,
+      "num_gt_objects": 5,
+      "num_sam_masks": 37,
+      "inference_time": 27.6,
+      "categories": [
+        "Large_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.7523,
+        "plane": 0.4725
+      }
+    },
+    {
+      "filename": "P0375.png",
+      "miou": 0.8384045500532813,
+      "num_gt_objects": 59,
+      "num_sam_masks": 134,
+      "inference_time": 39.4,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.9332,
+        "tennis_court": 0.9338,
+        "Small_Vehicle": 0.8276
+      }
+    },
+    {
+      "filename": "P2012.png",
+      "miou": 0.37455878819231503,
+      "num_gt_objects": 17,
+      "num_sam_masks": 205,
+      "inference_time": 51.9,
+      "categories": [
+        "baseball_diamond",
+        "Ground_Track_Field",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.9064,
+        "Ground_Track_Field": 0.958,
+        "Small_Vehicle": 0.0023,
+        "Soccer_ball_field": 0.8547
+      }
+    },
+    {
+      "filename": "P1269.png",
+      "miou": 0.027887118734996337,
+      "num_gt_objects": 32,
+      "num_sam_masks": 303,
+      "inference_time": 21.9,
+      "categories": [
+        "storage_tank",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Bridge",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0551,
+        "basketball_court": 0.0,
+        "Ground_Track_Field": 0.0,
+        "Bridge": 0.0021,
+        "Harbor": 0.09
+      }
+    },
+    {
+      "filename": "P0822.png",
+      "miou": 0.7567710300212168,
+      "num_gt_objects": 9,
+      "num_sam_masks": 88,
+      "inference_time": 42.5,
+      "categories": [
+        "tennis_court",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9628,
+        "basketball_court": 0.5099,
+        "Ground_Track_Field": 0.5237,
+        "Small_Vehicle": 0.0006
+      }
+    },
+    {
+      "filename": "P0198.png",
+      "miou": 0.8895989552487729,
+      "num_gt_objects": 19,
+      "num_sam_masks": 175,
+      "inference_time": 30.9,
+      "categories": [
+        "tennis_court"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.8896
+      }
+    },
+    {
+      "filename": "P0173.png",
+      "miou": 0.7132411158642047,
+      "num_gt_objects": 14,
+      "num_sam_masks": 68,
+      "inference_time": 42.4,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.7125,
+        "Small_Vehicle": 0.8438,
+        "plane": 0.6845
+      }
+    },
+    {
+      "filename": "P0615.png",
+      "miou": 0.25030687478792,
+      "num_gt_objects": 20,
+      "num_sam_masks": 147,
+      "inference_time": 72.9,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1355,
+        "Small_Vehicle": 0.0347,
+        "Swimming_pool": 0.3209,
+        "Harbor": 0.4849
+      }
+    },
+    {
+      "filename": "P2758.png",
+      "miou": 0.006290312827115635,
+      "num_gt_objects": 1578,
+      "num_sam_masks": 84,
+      "inference_time": 43.4,
+      "categories": [
+        "ship",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "ship": 0.1214,
+        "Bridge": 0.0,
+        "Large_Vehicle": 0.0074,
+        "Small_Vehicle": 0.0005
+      }
+    },
+    {
+      "filename": "P1090.png",
+      "miou": 0.14516587593673888,
+      "num_gt_objects": 293,
+      "num_sam_masks": 163,
+      "inference_time": 61.2,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.2402,
+        "Small_Vehicle": 0.038,
+        "Harbor": 0.1464
+      }
+    },
+    {
+      "filename": "P2599.png",
+      "miou": 0.5545400987772899,
+      "num_gt_objects": 18,
+      "num_sam_masks": 203,
+      "inference_time": 37.9,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.4808,
+        "Small_Vehicle": 0.6467
+      }
+    },
+    {
+      "filename": "P2214.png",
+      "miou": 0.40846067104461764,
+      "num_gt_objects": 103,
+      "num_sam_masks": 131,
+      "inference_time": 26.2,
+      "categories": [
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Small_Vehicle": 0.1881,
+        "plane": 0.6246
+      }
+    },
+    {
+      "filename": "P0359.png",
+      "miou": 0.6929048629139742,
+      "num_gt_objects": 8,
+      "num_sam_masks": 78,
+      "inference_time": 71.5,
+      "categories": [
+        "tennis_court",
+        "Large_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.8402,
+        "Large_Vehicle": 0.2509
+      }
+    },
+    {
+      "filename": "P2374.png",
+      "miou": 0.03253462087596815,
+      "num_gt_objects": 81,
+      "num_sam_masks": 172,
+      "inference_time": 59.7,
+      "categories": [
+        "basketball_court",
+        "Ground_Track_Field",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool"
+      ],
+      "per_category_miou": {
+        "basketball_court": 0.6389,
+        "Ground_Track_Field": 0.875,
+        "Bridge": 0.0,
+        "Large_Vehicle": 0.0584,
+        "Small_Vehicle": 0.0015,
+        "Swimming_pool": 0.6657
+      }
+    },
+    {
+      "filename": "P0577.png",
+      "miou": 0.2119942802286526,
+      "num_gt_objects": 17,
+      "num_sam_masks": 65,
+      "inference_time": 40.2,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.2157,
+        "Small_Vehicle": 0.0328,
+        "Harbor": 0.3103
+      }
+    },
+    {
+      "filename": "P1133.png",
+      "miou": 0.20730166410862488,
+      "num_gt_objects": 2,
+      "num_sam_masks": 55,
+      "inference_time": 19.5,
+      "categories": [
+        "plane"
+      ],
+      "per_category_miou": {
+        "plane": 0.2073
+      }
+    },
+    {
+      "filename": "P2610.png",
+      "miou": 0.16117931905185273,
+      "num_gt_objects": 128,
+      "num_sam_masks": 231,
+      "inference_time": 37.8,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.5679,
+        "Small_Vehicle": 0.156,
+        "Swimming_pool": 0.0
+      }
+    },
+    {
+      "filename": "P0007.png",
+      "miou": 0.35238735781165703,
+      "num_gt_objects": 194,
+      "num_sam_masks": 209,
+      "inference_time": 22.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.4195,
+        "Small_Vehicle": 0.2024
+      }
+    },
+    {
+      "filename": "P0761.png",
+      "miou": 0.3232853519807729,
+      "num_gt_objects": 190,
+      "num_sam_masks": 328,
+      "inference_time": 32.4,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.33,
+        "Large_Vehicle": 0.2414,
+        "Small_Vehicle": 0.2549,
+        "Harbor": 0.4845
+      }
+    },
+    {
+      "filename": "P0749.png",
+      "miou": 0.4043254531583173,
+      "num_gt_objects": 98,
+      "num_sam_masks": 154,
+      "inference_time": 19.4,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.3148,
+        "Small_Vehicle": 0.5828,
+        "Harbor": 0.5769
+      }
+    },
+    {
+      "filename": "P1456.png",
+      "miou": 0.27001649454446647,
+      "num_gt_objects": 18,
+      "num_sam_masks": 135,
+      "inference_time": 26.0,
+      "categories": [
+        "basketball_court",
+        "Ground_Track_Field",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "basketball_court": 0.1162,
+        "Ground_Track_Field": 0.9617,
+        "Small_Vehicle": 0.1486,
+        "Soccer_ball_field": 0.9807
+      }
+    },
+    {
+      "filename": "P0990.png",
+      "miou": 0.08650642322246775,
+      "num_gt_objects": 127,
+      "num_sam_masks": 246,
+      "inference_time": 27.2,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0482,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0104,
+        "Swimming_pool": 0.1051,
+        "Harbor": 0.2567
+      }
+    },
+    {
+      "filename": "P0953.png",
+      "miou": 0.13992061000745007,
+      "num_gt_objects": 34,
+      "num_sam_masks": 87,
+      "inference_time": 22.5,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1331,
+        "Small_Vehicle": 0.0038,
+        "Swimming_pool": 0.0405,
+        "Harbor": 0.2864
+      }
+    },
+    {
+      "filename": "P2375.png",
+      "miou": 0.004720493272535243,
+      "num_gt_objects": 416,
+      "num_sam_masks": 174,
+      "inference_time": 17.2,
+      "categories": [
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "Ground_Track_Field": 0.0,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.001,
+        "Roundabout": 0.624,
+        "Soccer_ball_field": 0.9257
+      }
+    },
+    {
+      "filename": "P2413.png",
+      "miou": 0.040723628514196634,
+      "num_gt_objects": 100,
+      "num_sam_masks": 190,
+      "inference_time": 17.1,
       "categories": [
         "Large_Vehicle",
         "Small_Vehicle",
         "Roundabout"
       ],
       "per_category_miou": {
-        "Large_Vehicle": 0.0135,
-        "Small_Vehicle": 0.0041,
-        "Roundabout": 0.0246
+        "Large_Vehicle": 0.0268,
+        "Small_Vehicle": 0.0,
+        "Roundabout": 0.369
+      }
+    },
+    {
+      "filename": "P0589.png",
+      "miou": 0.42031794986738963,
+      "num_gt_objects": 9,
+      "num_sam_masks": 97,
+      "inference_time": 17.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0011,
+        "Small_Vehicle": 0.1237,
+        "Harbor": 0.5226
+      }
+    },
+    {
+      "filename": "P1720.png",
+      "miou": 0.0,
+      "num_gt_objects": 2,
+      "num_sam_masks": 198,
+      "inference_time": 22.4,
+      "categories": [
+        "Bridge",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Bridge": 0.0,
+        "Roundabout": 0.0
+      }
+    },
+    {
+      "filename": "P2215.png",
+      "miou": 0.5506001788179581,
+      "num_gt_objects": 29,
+      "num_sam_masks": 109,
+      "inference_time": 46.2,
+      "categories": [
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Small_Vehicle": 0.38,
+        "plane": 0.5779
+      }
+    },
+    {
+      "filename": "P0402.png",
+      "miou": 0.8912401179627346,
+      "num_gt_objects": 6,
+      "num_sam_masks": 53,
+      "inference_time": 55.4,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.8983,
+        "tennis_court": 0.8831,
+        "Soccer_ball_field": 0.9167
+      }
+    },
+    {
+      "filename": "P2598.png",
+      "miou": 0.3344848596234308,
+      "num_gt_objects": 61,
+      "num_sam_masks": 267,
+      "inference_time": 55.5,
+      "categories": [
+        "tennis_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.6875,
+        "Ground_Track_Field": 0.9806,
+        "Large_Vehicle": 0.3817,
+        "Small_Vehicle": 0.2703,
+        "Soccer_ball_field": 0.8714
+      }
+    },
+    {
+      "filename": "P1091.png",
+      "miou": 0.6839795157302124,
+      "num_gt_objects": 52,
+      "num_sam_masks": 136,
+      "inference_time": 19.8,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.7134,
+        "Small_Vehicle": 0.5223
+      }
+    },
+    {
+      "filename": "P2771.png",
+      "miou": 0.05628679113727633,
+      "num_gt_objects": 275,
+      "num_sam_masks": 177,
+      "inference_time": 14.1,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0649,
+        "Large_Vehicle": 0.002,
+        "Small_Vehicle": 0.0035,
+        "Harbor": 0.8729
+      }
+    },
+    {
+      "filename": "P1278.png",
+      "miou": 0.00010026415869344081,
+      "num_gt_objects": 11,
+      "num_sam_masks": 12,
+      "inference_time": 59.1,
+      "categories": [
+        "ship",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0001,
+        "Harbor": 0.0005
+      }
+    },
+    {
+      "filename": "P2003.png",
+      "miou": 0.5209874257178536,
+      "num_gt_objects": 106,
+      "num_sam_masks": 243,
+      "inference_time": 29.4,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.8152,
+        "Small_Vehicle": 0.3632
+      }
+    },
+    {
+      "filename": "P0199.png",
+      "miou": 0.4151716902222597,
+      "num_gt_objects": 97,
+      "num_sam_masks": 270,
+      "inference_time": 45.8,
+      "categories": [
+        "tennis_court",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.8899,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.2627
+      }
+    },
+    {
+      "filename": "P0833.png",
+      "miou": 0.34451116770375245,
+      "num_gt_objects": 64,
+      "num_sam_masks": 165,
+      "inference_time": 48.4,
+      "categories": [
+        "tennis_court",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.804,
+        "basketball_court": 0.4208,
+        "Ground_Track_Field": 0.5625,
+        "Small_Vehicle": 0.2102,
+        "Soccer_ball_field": 0.8312
+      }
+    },
+    {
+      "filename": "P1508.png",
+      "miou": 0.18227331958468002,
+      "num_gt_objects": 47,
+      "num_sam_masks": 76,
+      "inference_time": 32.4,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Helicopter",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0335,
+        "Small_Vehicle": 0.1483,
+        "Helicopter": 0.3443,
+        "plane": 0.0
+      }
+    },
+    {
+      "filename": "P0170.png",
+      "miou": 0.5060033374044882,
+      "num_gt_objects": 58,
+      "num_sam_masks": 104,
+      "inference_time": 62.2,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.678,
+        "Small_Vehicle": 0.3439,
+        "plane": 0.6673
+      }
+    },
+    {
+      "filename": "P1246.png",
+      "miou": 0.0036104032592274176,
+      "num_gt_objects": 13,
+      "num_sam_masks": 228,
+      "inference_time": 24.3,
+      "categories": [
+        "ship",
+        "Bridge",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "ship": 0.0003,
+        "Bridge": 0.0007,
+        "Soccer_ball_field": 0.0207
+      }
+    },
+    {
+      "filename": "P1905.png",
+      "miou": 0.45405608627782784,
+      "num_gt_objects": 63,
+      "num_sam_masks": 203,
+      "inference_time": 89.9,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9222,
+        "Small_Vehicle": 0.3439
+      }
+    },
+    {
+      "filename": "P1911.png",
+      "miou": 0.7118639101255831,
+      "num_gt_objects": 53,
+      "num_sam_masks": 174,
+      "inference_time": 65.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.804,
+        "Small_Vehicle": 0.6849
+      }
+    },
+    {
+      "filename": "P2571.png",
+      "miou": 0.5052607519122712,
+      "num_gt_objects": 13,
+      "num_sam_masks": 161,
+      "inference_time": 63.5,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.4871,
+        "Small_Vehicle": 0.5462
+      }
+    },
+    {
+      "filename": "P0414.png",
+      "miou": 0.36910999236943737,
+      "num_gt_objects": 35,
+      "num_sam_masks": 159,
+      "inference_time": 78.2,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.3933,
+        "Small_Vehicle": 0.2807,
+        "Harbor": 0.4869
+      }
+    },
+    {
+      "filename": "P2363.png",
+      "miou": 0.013506576593443027,
+      "num_gt_objects": 300,
+      "num_sam_masks": 99,
+      "inference_time": 48.9,
+      "categories": [
+        "storage_tank",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.8196,
+        "Bridge": 0.3364,
+        "Large_Vehicle": 0.0147,
+        "Small_Vehicle": 0.0013
+      }
+    },
+    {
+      "filename": "P0206.png",
+      "miou": 0.8386389159320948,
+      "num_gt_objects": 11,
+      "num_sam_masks": 80,
+      "inference_time": 61.8,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.8982,
+        "Small_Vehicle": 0.2433
+      }
+    },
+    {
+      "filename": "P0789.png",
+      "miou": 0.2361718409759059,
+      "num_gt_objects": 422,
+      "num_sam_masks": 245,
+      "inference_time": 50.3,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.3071,
+        "Large_Vehicle": 0.4473,
+        "Small_Vehicle": 0.0838,
+        "Harbor": 0.2057
+      }
+    },
+    {
+      "filename": "P0945.png",
+      "miou": 0.22014598950417844,
+      "num_gt_objects": 94,
+      "num_sam_masks": 196,
+      "inference_time": 57.3,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.2041,
+        "Small_Vehicle": 0.0686,
+        "Harbor": 0.2883
+      }
+    },
+    {
+      "filename": "P1483.png",
+      "miou": 0.27686484403343015,
+      "num_gt_objects": 11,
+      "num_sam_masks": 51,
+      "inference_time": 70.8,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Helicopter",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.4429,
+        "Small_Vehicle": 0.0,
+        "Helicopter": 0.8523,
+        "plane": 0.1517
+      }
+    },
+    {
+      "filename": "P0004.png",
+      "miou": 0.6661703076845326,
+      "num_gt_objects": 116,
+      "num_sam_masks": 172,
+      "inference_time": 34.8,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.6739,
+        "Small_Vehicle": 0.6366
+      }
+    },
+    {
+      "filename": "P1332.png",
+      "miou": 0.0002888145181386456,
+      "num_gt_objects": 37,
+      "num_sam_masks": 40,
+      "inference_time": 57.0,
+      "categories": [
+        "ship",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "ship": 0.0001,
+        "Bridge": 0.0016
+      }
+    },
+    {
+      "filename": "P1440.png",
+      "miou": 0.4105152609930154,
+      "num_gt_objects": 7,
+      "num_sam_masks": 167,
+      "inference_time": 35.0,
+      "categories": [
+        "basketball_court",
+        "Ground_Track_Field",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "basketball_court": 0.2969,
+        "Ground_Track_Field": 0.7443,
+        "Soccer_ball_field": 0.6447
+      }
+    },
+    {
+      "filename": "P0763.png",
+      "miou": 0.4504600157953539,
+      "num_gt_objects": 128,
+      "num_sam_masks": 409,
+      "inference_time": 34.1,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.4101,
+        "Large_Vehicle": 0.8289,
+        "Small_Vehicle": 0.4202,
+        "Harbor": 0.5418
+      }
+    },
+    {
+      "filename": "P1643.png",
+      "miou": 0.2381930780522187,
+      "num_gt_objects": 11,
+      "num_sam_masks": 180,
+      "inference_time": 31.0,
+      "categories": [
+        "storage_tank",
+        "baseball_diamond"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "baseball_diamond": 0.2911
+      }
+    },
+    {
+      "filename": "P0213.png",
+      "miou": 0.05742784652834169,
+      "num_gt_objects": 193,
+      "num_sam_masks": 119,
+      "inference_time": 26.1,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0014,
+        "Small_Vehicle": 0.0323,
+        "plane": 0.1433
+      }
+    },
+    {
+      "filename": "P2404.png",
+      "miou": 0.0002153640403081816,
+      "num_gt_objects": 396,
+      "num_sam_masks": 173,
+      "inference_time": 13.9,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "Ground_Track_Field",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "ship": 0.0014,
+        "storage_tank": 0.0,
+        "Ground_Track_Field": 0.0,
+        "Bridge": 0.0,
+        "Large_Vehicle": 0.0002,
+        "Small_Vehicle": 0.0002
+      }
+    },
+    {
+      "filename": "P1051.png",
+      "miou": 0.46131629015995784,
+      "num_gt_objects": 113,
+      "num_sam_masks": 155,
+      "inference_time": 67.8,
+      "categories": [
+        "tennis_court",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.8861,
+        "Large_Vehicle": 0.6278,
+        "Small_Vehicle": 0.4231
+      }
+    },
+    {
+      "filename": "P2570.png",
+      "miou": 0.09979586242790019,
+      "num_gt_objects": 150,
+      "num_sam_masks": 157,
+      "inference_time": 71.8,
+      "categories": [
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "Ground_Track_Field": 0.8929,
+        "Large_Vehicle": 0.2709,
+        "Small_Vehicle": 0.0325,
+        "Swimming_pool": 0.0341,
+        "Soccer_ball_field": 0.956
+      }
+    },
+    {
+      "filename": "P1086.png",
+      "miou": 0.9187805021246478,
+      "num_gt_objects": 10,
+      "num_sam_masks": 128,
+      "inference_time": 71.6,
+      "categories": [
+        "tennis_court"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9188
+      }
+    },
+    {
+      "filename": "P1904.png",
+      "miou": 0.4716908573694787,
+      "num_gt_objects": 177,
+      "num_sam_masks": 301,
+      "inference_time": 32.3,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.6223,
+        "Small_Vehicle": 0.4291
+      }
+    },
+    {
+      "filename": "P2766.png",
+      "miou": 0.0062748492706483205,
+      "num_gt_objects": 1668,
+      "num_sam_masks": 305,
+      "inference_time": 22.3,
+      "categories": [
+        "storage_tank",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0203,
+        "Bridge": 0.0,
+        "Large_Vehicle": 0.001,
+        "Small_Vehicle": 0.0007
+      }
+    },
+    {
+      "filename": "P0801.png",
+      "miou": 0.34514934031216105,
+      "num_gt_objects": 504,
+      "num_sam_masks": 283,
+      "inference_time": 31.4,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.4438,
+        "Small_Vehicle": 0.1313,
+        "Harbor": 0.3053
+      }
+    },
+    {
+      "filename": "P0815.png",
+      "miou": 0.9451339732890278,
+      "num_gt_objects": 8,
+      "num_sam_masks": 112,
+      "inference_time": 81.6,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.8916,
+        "tennis_court": 0.9528
+      }
+    },
+    {
+      "filename": "P2794.png",
+      "miou": 0.05095400653336295,
+      "num_gt_objects": 319,
+      "num_sam_masks": 186,
+      "inference_time": 36.8,
+      "categories": [
+        "ship",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "ship": 0.1196,
+        "Ground_Track_Field": 0.9754,
+        "Large_Vehicle": 0.0591,
+        "Small_Vehicle": 0.0056
+      }
+    },
+    {
+      "filename": "P0168.png",
+      "miou": 0.08412864253518255,
+      "num_gt_objects": 228,
+      "num_sam_masks": 178,
+      "inference_time": 33.6,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Helicopter",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0435,
+        "Small_Vehicle": 0.0153,
+        "Helicopter": 0.0006,
+        "plane": 0.5566
+      }
+    },
+    {
+      "filename": "P2582.png",
+      "miou": 0.07575711010569733,
+      "num_gt_objects": 282,
+      "num_sam_masks": 308,
+      "inference_time": 56.0,
+      "categories": [
+        "tennis_court",
+        "basketball_court",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.2369,
+        "basketball_court": 0.0158,
+        "Large_Vehicle": 0.1155,
+        "Small_Vehicle": 0.0535,
+        "Swimming_pool": 0.0097,
+        "Soccer_ball_field": 0.8663
+      }
+    },
+    {
+      "filename": "P0342.png",
+      "miou": 0.6679745444862297,
+      "num_gt_objects": 49,
+      "num_sam_masks": 156,
+      "inference_time": 55.2,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.6213,
+        "Small_Vehicle": 0.7417
+      }
+    },
+    {
+      "filename": "P2541.png",
+      "miou": 0.0017265400392257294,
+      "num_gt_objects": 2769,
+      "num_sam_masks": 256,
+      "inference_time": 63.6,
+      "categories": [
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "Bridge": 0.0,
+        "Large_Vehicle": 0.001,
+        "Small_Vehicle": 0.0007,
+        "Roundabout": 0.0,
+        "Soccer_ball_field": 0.6729
+      }
+    },
+    {
+      "filename": "P1699.png",
+      "miou": 0.0,
+      "num_gt_objects": 1,
+      "num_sam_masks": 83,
+      "inference_time": 36.3,
+      "categories": [
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Roundabout": 0.0
+      }
+    },
+    {
+      "filename": "P1672.png",
+      "miou": 0.03379590096705314,
+      "num_gt_objects": 32,
+      "num_sam_masks": 65,
+      "inference_time": 32.1,
+      "categories": [
+        "storage_tank",
+        "Roundabout",
+        "plane",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0834,
+        "Roundabout": 0.1468,
+        "plane": 0.0019,
+        "Harbor": 0.0
+      }
+    },
+    {
+      "filename": "P1666.png",
+      "miou": 0.10310199975427858,
+      "num_gt_objects": 6,
+      "num_sam_masks": 153,
+      "inference_time": 18.4,
+      "categories": [
+        "Roundabout",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "Roundabout": 0.0976,
+        "Soccer_ball_field": 0.1307
+      }
+    },
+    {
+      "filename": "P1128.png",
+      "miou": 0.32829558964354905,
+      "num_gt_objects": 3,
+      "num_sam_masks": 69,
+      "inference_time": 69.6,
+      "categories": [
+        "plane"
+      ],
+      "per_category_miou": {
+        "plane": 0.3283
+      }
+    },
+    {
+      "filename": "P0550.png",
+      "miou": 0.3041801714647382,
+      "num_gt_objects": 24,
+      "num_sam_masks": 111,
+      "inference_time": 60.3,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1829,
+        "Small_Vehicle": 0.1253,
+        "Harbor": 0.4632
+      }
+    },
+    {
+      "filename": "P0961.png",
+      "miou": 0.0063146360310557,
+      "num_gt_objects": 148,
+      "num_sam_masks": 56,
+      "inference_time": 57.9,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.003,
+        "Small_Vehicle": 0.0081,
+        "Swimming_pool": 0.0254,
+        "Harbor": 0.0047
+      }
+    },
+    {
+      "filename": "P0791.png",
+      "miou": 0.47841506471914413,
+      "num_gt_objects": 71,
+      "num_sam_masks": 156,
+      "inference_time": 69.5,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.5844,
+        "tennis_court": 0.8716,
+        "Large_Vehicle": 0.4811,
+        "Small_Vehicle": 0.4315
+      }
+    },
+    {
+      "filename": "P0949.png",
+      "miou": 0.22081527456236327,
+      "num_gt_objects": 37,
+      "num_sam_masks": 65,
+      "inference_time": 26.8,
+      "categories": [
+        "ship",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0909,
+        "Swimming_pool": 0.4327,
+        "Harbor": 0.3486
+      }
+    },
+    {
+      "filename": "P2150.png",
+      "miou": 0.5910394706428662,
+      "num_gt_objects": 30,
+      "num_sam_masks": 156,
+      "inference_time": 38.8,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.6872,
+        "tennis_court": 0.9083,
+        "Small_Vehicle": 0.318
+      }
+    },
+    {
+      "filename": "P1471.png",
+      "miou": 0.011961297784433856,
+      "num_gt_objects": 1090,
+      "num_sam_masks": 258,
+      "inference_time": 36.9,
+      "categories": [
+        "ship",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "ship": 0.0005,
+        "basketball_court": 0.2335,
+        "Ground_Track_Field": 0.7414,
+        "Bridge": 0.0016,
+        "Large_Vehicle": 0.0923,
+        "Small_Vehicle": 0.0075,
+        "Soccer_ball_field": 0.6065
+      }
+    },
+    {
+      "filename": "P0974.png",
+      "miou": 0.34371830962825606,
+      "num_gt_objects": 23,
+      "num_sam_masks": 67,
+      "inference_time": 77.4,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.3043,
+        "Small_Vehicle": 0.0023,
+        "Harbor": 0.6064
+      }
+    },
+    {
+      "filename": "P2420.png",
+      "miou": 0.019746699411509784,
+      "num_gt_objects": 29,
+      "num_sam_masks": 212,
+      "inference_time": 68.6,
+      "categories": [
+        "Large_Vehicle",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0205,
+        "Roundabout": 0.0
+      }
+    },
+    {
+      "filename": "P0237.png",
+      "miou": 0.6066039711203164,
+      "num_gt_objects": 24,
+      "num_sam_masks": 130,
+      "inference_time": 62.5,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9647,
+        "Small_Vehicle": 0.4275
+      }
+    },
+    {
+      "filename": "P0551.png",
+      "miou": 0.3547655447977386,
+      "num_gt_objects": 16,
+      "num_sam_masks": 102,
+      "inference_time": 61.2,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.6086,
+        "Small_Vehicle": 0.2604,
+        "Harbor": 0.2141
+      }
+    },
+    {
+      "filename": "P0579.png",
+      "miou": 0.5744328175712407,
+      "num_gt_objects": 13,
+      "num_sam_masks": 75,
+      "inference_time": 76.4,
+      "categories": [
+        "ship",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.412,
+        "Harbor": 0.676
+      }
+    },
+    {
+      "filename": "P2408.png",
+      "miou": 0.014680572938893906,
+      "num_gt_objects": 136,
+      "num_sam_masks": 192,
+      "inference_time": 36.1,
+      "categories": [
+        "storage_tank",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "Ground_Track_Field": 0.9607,
+        "Large_Vehicle": 0.0015,
+        "Small_Vehicle": 0.0008,
+        "Swimming_pool": 0.0005,
+        "Soccer_ball_field": 0.9029
+      }
+    },
+    {
+      "filename": "P1101.png",
+      "miou": 0.8102792663889662,
+      "num_gt_objects": 9,
+      "num_sam_masks": 142,
+      "inference_time": 45.4,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9118,
+        "Small_Vehicle": 0.6072
+      }
+    },
+    {
+      "filename": "P2385.png",
+      "miou": 0.028687351235983403,
+      "num_gt_objects": 26,
+      "num_sam_masks": 356,
+      "inference_time": 39.0,
+      "categories": [
+        "storage_tank",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0622,
+        "Bridge": 0.0,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0
+      }
+    },
+    {
+      "filename": "P1854.png",
+      "miou": 0.0028685546683379004,
+      "num_gt_objects": 1934,
+      "num_sam_masks": 118,
+      "inference_time": 30.0,
+      "categories": [
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout",
+        "plane"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.1236,
+        "Large_Vehicle": 0.0027,
+        "Small_Vehicle": 0.0007,
+        "Roundabout": 0.0001,
+        "plane": 0.0178
+      }
+    },
+    {
+      "filename": "P1713.png",
+      "miou": 0.1638078774642301,
+      "num_gt_objects": 16,
+      "num_sam_masks": 143,
+      "inference_time": 22.1,
+      "categories": [
+        "storage_tank"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.1638
+      }
+    },
+    {
+      "filename": "P1075.png",
+      "miou": 0.026725052712621503,
+      "num_gt_objects": 542,
+      "num_sam_masks": 193,
+      "inference_time": 34.2,
+      "categories": [
+        "ship",
+        "tennis_court",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.021,
+        "tennis_court": 0.3354,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0056,
+        "Swimming_pool": 0.1027,
+        "Harbor": 0.0922
+      }
+    },
+    {
+      "filename": "P2781.png",
+      "miou": 0.1827948268210196,
+      "num_gt_objects": 306,
+      "num_sam_masks": 245,
+      "inference_time": 43.2,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.2839,
+        "Small_Vehicle": 0.0609,
+        "Soccer_ball_field": 0.6464
+      }
+    },
+    {
+      "filename": "P0814.png",
+      "miou": 0.42902862103281175,
+      "num_gt_objects": 25,
+      "num_sam_masks": 112,
+      "inference_time": 46.0,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.8959,
+        "Small_Vehicle": 0.2475
+      }
+    },
+    {
+      "filename": "P0816.png",
+      "miou": 0.566260580241429,
+      "num_gt_objects": 43,
+      "num_sam_masks": 124,
+      "inference_time": 70.4,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.8989,
+        "Small_Vehicle": 0.5123
+      }
+    },
+    {
+      "filename": "P0194.png",
+      "miou": 0.6191681511369292,
+      "num_gt_objects": 17,
+      "num_sam_masks": 98,
+      "inference_time": 35.9,
+      "categories": [
+        "tennis_court",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.73,
+        "Large_Vehicle": 0.5933,
+        "Small_Vehicle": 0.3806
+      }
+    },
+    {
+      "filename": "P1513.png",
+      "miou": 0.06795380893826714,
+      "num_gt_objects": 156,
+      "num_sam_masks": 153,
+      "inference_time": 21.1,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0821,
+        "Small_Vehicle": 0.0108,
+        "plane": 0.4558
+      }
+    },
+    {
+      "filename": "P1275.png",
+      "miou": 0.06305579604944017,
+      "num_gt_objects": 25,
+      "num_sam_masks": 34,
+      "inference_time": 49.1,
+      "categories": [
+        "ship",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0657,
+        "Harbor": 0.0
+      }
+    },
+    {
+      "filename": "P2768.png",
+      "miou": 0.015506410209054031,
+      "num_gt_objects": 450,
+      "num_sam_masks": 127,
+      "inference_time": 62.0,
+      "categories": [
+        "storage_tank",
+        "baseball_diamond",
+        "tennis_court",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0479,
+        "baseball_diamond": 0.8233,
+        "tennis_court": 0.1177,
+        "basketball_court": 0.1945,
+        "Ground_Track_Field": 0.954,
+        "Large_Vehicle": 0.0265,
+        "Small_Vehicle": 0.0022,
+        "Swimming_pool": 0.8096,
+        "Soccer_ball_field": 0.7036
+      }
+    },
+    {
+      "filename": "P2754.png",
+      "miou": 0.004584156191963327,
+      "num_gt_objects": 3025,
+      "num_sam_masks": 241,
+      "inference_time": 40.6,
+      "categories": [
+        "storage_tank",
+        "baseball_diamond",
+        "tennis_court",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0449,
+        "baseball_diamond": 0.4866,
+        "tennis_court": 0.1187,
+        "basketball_court": 0.1385,
+        "Ground_Track_Field": 0.6293,
+        "Large_Vehicle": 0.0023,
+        "Small_Vehicle": 0.0008,
+        "Soccer_ball_field": 0.4397
+      }
+    },
+    {
+      "filename": "P0143.png",
+      "miou": 0.2130113529086678,
+      "num_gt_objects": 9,
+      "num_sam_masks": 155,
+      "inference_time": 46.8,
+      "categories": [
+        "Ground_Track_Field",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "Ground_Track_Field": 0.9638,
+        "Small_Vehicle": 0.0417,
+        "Swimming_pool": 0.0052,
+        "Soccer_ball_field": 0.6982
+      }
+    },
+    {
+      "filename": "P1088.png",
+      "miou": 0.4942879582606904,
+      "num_gt_objects": 38,
+      "num_sam_masks": 47,
+      "inference_time": 66.8,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.4597,
+        "Small_Vehicle": 0.2381,
+        "plane": 0.6504
+      }
+    },
+    {
+      "filename": "P0396.png",
+      "miou": 0.7546982564011878,
+      "num_gt_objects": 10,
+      "num_sam_masks": 71,
+      "inference_time": 63.3,
+      "categories": [
+        "tennis_court",
+        "Ground_Track_Field",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.8741,
+        "Ground_Track_Field": 0.6858,
+        "Small_Vehicle": 0.3711
+      }
+    },
+    {
+      "filename": "P2595.png",
+      "miou": 0.2697990062940195,
+      "num_gt_objects": 26,
+      "num_sam_masks": 239,
+      "inference_time": 97.1,
+      "categories": [
+        "tennis_court",
+        "Ground_Track_Field",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.3995,
+        "Ground_Track_Field": 0.9729,
+        "Small_Vehicle": 0.008,
+        "Soccer_ball_field": 0.9715
+      }
+    },
+    {
+      "filename": "P0382.png",
+      "miou": 0.5635872505201631,
+      "num_gt_objects": 31,
+      "num_sam_masks": 118,
+      "inference_time": 49.7,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.752,
+        "tennis_court": 0.9377,
+        "Small_Vehicle": 0.4887
+      }
+    },
+    {
+      "filename": "P2218.png",
+      "miou": 0.5589125695145747,
+      "num_gt_objects": 13,
+      "num_sam_masks": 62,
+      "inference_time": 80.3,
+      "categories": [
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Small_Vehicle": 0.4579,
+        "plane": 0.5673
+      }
+    },
+    {
+      "filename": "P2542.png",
+      "miou": 0.0031229142424544117,
+      "num_gt_objects": 1850,
+      "num_sam_masks": 232,
+      "inference_time": 51.6,
+      "categories": [
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Roundabout",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "Ground_Track_Field": 0.8755,
+        "Large_Vehicle": 0.0013,
+        "Small_Vehicle": 0.0003,
+        "Swimming_pool": 0.0,
+        "Roundabout": 0.1437,
+        "Soccer_ball_field": 0.8629
+      }
+    },
+    {
+      "filename": "P2230.png",
+      "miou": 0.01910689176366877,
+      "num_gt_objects": 305,
+      "num_sam_masks": 104,
+      "inference_time": 33.4,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0282,
+        "Small_Vehicle": 0.0019,
+        "plane": 0.2567
+      }
+    },
+    {
+      "filename": "P2393.png",
+      "miou": 0.00736822720355239,
+      "num_gt_objects": 355,
+      "num_sam_masks": 100,
+      "inference_time": 97.5,
+      "categories": [
+        "ship",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "ship": 0.9204,
+        "Bridge": 0.6091,
+        "Large_Vehicle": 0.001,
+        "Small_Vehicle": 0.0014
+      }
+    },
+    {
+      "filename": "P0590.png",
+      "miou": 0.6467374135031256,
+      "num_gt_objects": 138,
+      "num_sam_masks": 228,
+      "inference_time": 41.4,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.7688,
+        "Small_Vehicle": 0.468
+      }
+    },
+    {
+      "filename": "P1103.png",
+      "miou": 0.6658717007127818,
+      "num_gt_objects": 33,
+      "num_sam_masks": 95,
+      "inference_time": 50.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.8427,
+        "Small_Vehicle": 0.5417,
+        "plane": 0.6936
+      }
+    },
+    {
+      "filename": "P2378.png",
+      "miou": 0.004799378443346069,
+      "num_gt_objects": 204,
+      "num_sam_masks": 211,
+      "inference_time": 58.7,
+      "categories": [
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Ground_Track_Field": 0.9268,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0003
+      }
+    },
+    {
+      "filename": "P0547.png",
+      "miou": 0.632042515154212,
+      "num_gt_objects": 56,
+      "num_sam_masks": 103,
+      "inference_time": 58.8,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "ship": 0.0,
+        "Large_Vehicle": 0.6661,
+        "Small_Vehicle": 0.5418
+      }
+    },
+    {
+      "filename": "P0962.png",
+      "miou": 0.25573891265820503,
+      "num_gt_objects": 15,
+      "num_sam_masks": 32,
+      "inference_time": 41.7,
+      "categories": [
+        "ship",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0596,
+        "Harbor": 0.327
+      }
+    },
+    {
+      "filename": "P2608.png",
+      "miou": 0.1311024592959867,
+      "num_gt_objects": 242,
+      "num_sam_masks": 333,
+      "inference_time": 45.0,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.2537,
+        "Small_Vehicle": 0.1215,
+        "Roundabout": 0.9532,
+        "Soccer_ball_field": 0.5652
+      }
+    },
+    {
+      "filename": "P1315.png",
+      "miou": 0.0012918257140689217,
+      "num_gt_objects": 33,
+      "num_sam_masks": 282,
+      "inference_time": 23.9,
+      "categories": [
+        "ship",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "ship": 0.0,
+        "Bridge": 0.0016
+      }
+    },
+    {
+      "filename": "P1473.png",
+      "miou": 0.6312190553220931,
+      "num_gt_objects": 40,
+      "num_sam_masks": 184,
+      "inference_time": 39.3,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.6628,
+        "Small_Vehicle": 0.4103
+      }
+    },
+    {
+      "filename": "P2152.png",
+      "miou": 0.28186995804760623,
+      "num_gt_objects": 19,
+      "num_sam_masks": 163,
+      "inference_time": 25.0,
+      "categories": [
+        "Small_Vehicle",
+        "Swimming_pool"
+      ],
+      "per_category_miou": {
+        "Small_Vehicle": 0.2701,
+        "Swimming_pool": 0.4943
+      }
+    },
+    {
+      "filename": "P0989.png",
+      "miou": 0.1903803376996822,
+      "num_gt_objects": 55,
+      "num_sam_masks": 148,
+      "inference_time": 72.5,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1242,
+        "Small_Vehicle": 0.1102,
+        "Swimming_pool": 0.2636,
+        "Harbor": 0.3492
+      }
+    },
+    {
+      "filename": "P1314.png",
+      "miou": 0.0019039563560112466,
+      "num_gt_objects": 40,
+      "num_sam_masks": 266,
+      "inference_time": 43.2,
+      "categories": [
+        "ship",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "ship": 0.0023,
+        "Bridge": 0.0008
+      }
+    },
+    {
+      "filename": "P0787.png",
+      "miou": 0.70501767604458,
+      "num_gt_objects": 86,
+      "num_sam_masks": 109,
+      "inference_time": 38.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.7512,
+        "Small_Vehicle": 0.5526
+      }
+    },
+    {
+      "filename": "P0977.png",
+      "miou": 0.2455310524035344,
+      "num_gt_objects": 51,
+      "num_sam_masks": 154,
+      "inference_time": 73.3,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0957,
+        "Small_Vehicle": 0.2099,
+        "Harbor": 0.6044
+      }
+    },
+    {
+      "filename": "P2351.png",
+      "miou": 0.018691277112747585,
+      "num_gt_objects": 242,
+      "num_sam_masks": 215,
+      "inference_time": 42.5,
+      "categories": [
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "Bridge": 0.3605,
+        "Large_Vehicle": 0.0699,
+        "Small_Vehicle": 0.0025,
+        "Soccer_ball_field": 0.8627
+      }
+    },
+    {
+      "filename": "P1880.png",
+      "miou": 0.5717043511021377,
+      "num_gt_objects": 75,
+      "num_sam_masks": 177,
+      "inference_time": 40.1,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.6141,
+        "Small_Vehicle": 0.402
+      }
+    },
+    {
+      "filename": "P1738.png",
+      "miou": 0.037004318468003915,
+      "num_gt_objects": 116,
+      "num_sam_masks": 180,
+      "inference_time": 31.3,
+      "categories": [
+        "ship",
+        "baseball_diamond",
+        "Bridge",
+        "plane",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1452,
+        "baseball_diamond": 0.1332,
+        "Bridge": 0.0,
+        "plane": 0.0002,
+        "Harbor": 0.0067
+      }
+    },
+    {
+      "filename": "P2231.png",
+      "miou": 0.05515005508204209,
+      "num_gt_objects": 265,
+      "num_sam_masks": 142,
+      "inference_time": 23.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.1583,
+        "Small_Vehicle": 0.0044,
+        "plane": 0.3227
+      }
+    },
+    {
+      "filename": "P0432.png",
+      "miou": 0.19271570917537667,
+      "num_gt_objects": 42,
+      "num_sam_masks": 208,
+      "inference_time": 43.9,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0675,
+        "Large_Vehicle": 0.1415,
+        "Small_Vehicle": 0.045,
+        "Swimming_pool": 0.4574,
+        "Harbor": 0.514
+      }
+    },
+    {
+      "filename": "P0368.png",
+      "miou": 0.6065016863866696,
+      "num_gt_objects": 30,
+      "num_sam_masks": 223,
+      "inference_time": 82.4,
+      "categories": [
+        "tennis_court",
+        "basketball_court",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9016,
+        "basketball_court": 0.9431,
+        "Small_Vehicle": 0.5123,
+        "Soccer_ball_field": 0.9615
+      }
+    },
+    {
+      "filename": "P2580.png",
+      "miou": 0.13424145354192302,
+      "num_gt_objects": 87,
+      "num_sam_masks": 206,
+      "inference_time": 51.0,
+      "categories": [
+        "tennis_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.2768,
+        "Ground_Track_Field": 0.7601,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0868,
+        "Soccer_ball_field": 0.8136
+      }
+    },
+    {
+      "filename": "P2027.png",
+      "miou": 0.4478110891823127,
+      "num_gt_objects": 145,
+      "num_sam_masks": 230,
+      "inference_time": 55.9,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.5662,
+        "Small_Vehicle": 0.167
+      }
+    },
+    {
+      "filename": "P1506.png",
+      "miou": 0.42959456239751836,
+      "num_gt_objects": 11,
+      "num_sam_masks": 162,
+      "inference_time": 91.3,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.4844,
+        "tennis_court": 0.8585,
+        "Small_Vehicle": 0.1345
+      }
+    },
+    {
+      "filename": "P1512.png",
+      "miou": 0.282897456266475,
+      "num_gt_objects": 87,
+      "num_sam_masks": 106,
+      "inference_time": 73.9,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.592,
+        "Small_Vehicle": 0.2328,
+        "plane": 0.6371
+      }
+    },
+    {
+      "filename": "P2745.png",
+      "miou": 0.1048488212417533,
+      "num_gt_objects": 141,
+      "num_sam_masks": 137,
+      "inference_time": 19.2,
+      "categories": [
+        "storage_tank",
+        "baseball_diamond",
+        "Ground_Track_Field",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.1064,
+        "baseball_diamond": 0.1515,
+        "Ground_Track_Field": 0.0046,
+        "Bridge": 0.0
+      }
+    },
+    {
+      "filename": "P0146.png",
+      "miou": 0.029413480728413644,
+      "num_gt_objects": 372,
+      "num_sam_masks": 196,
+      "inference_time": 36.2,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "basketball_court",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.4862,
+        "tennis_court": 0.681,
+        "basketball_court": 0.2465,
+        "Large_Vehicle": 0.0962,
+        "Small_Vehicle": 0.0068,
+        "Soccer_ball_field": 0.6611
+      }
+    },
+    {
+      "filename": "P2779.png",
+      "miou": 0.5673674120891935,
+      "num_gt_objects": 76,
+      "num_sam_masks": 201,
+      "inference_time": 44.4,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.6772,
+        "Small_Vehicle": 0.4242
+      }
+    },
+    {
+      "filename": "P1099.png",
+      "miou": 0.6549592793761809,
+      "num_gt_objects": 16,
+      "num_sam_masks": 115,
+      "inference_time": 39.6,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle",
+        "Swimming_pool"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9487,
+        "Small_Vehicle": 0.3075,
+        "Swimming_pool": 0.8429
+      }
+    },
+    {
+      "filename": "P2547.png",
+      "miou": 0.004196540855400871,
+      "num_gt_objects": 982,
+      "num_sam_masks": 220,
+      "inference_time": 62.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Roundabout",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0028,
+        "Small_Vehicle": 0.0024,
+        "Swimming_pool": 0.0,
+        "Roundabout": 0.0,
+        "Soccer_ball_field": 0.8818
+      }
+    },
+    {
+      "filename": "P1066.png",
+      "miou": 0.22309204918817932,
+      "num_gt_objects": 51,
+      "num_sam_masks": 149,
+      "inference_time": 38.2,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1315,
+        "Small_Vehicle": 0.1211,
+        "Swimming_pool": 0.4261,
+        "Harbor": 0.4106
+      }
+    },
+    {
+      "filename": "P1700.png",
+      "miou": 0.05141819197987984,
+      "num_gt_objects": 17,
+      "num_sam_masks": 178,
+      "inference_time": 19.5,
+      "categories": [
+        "Bridge",
+        "Roundabout",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "Bridge": 0.0,
+        "Roundabout": 0.0,
+        "Soccer_ball_field": 0.8741
+      }
+    },
+    {
+      "filename": "P2194.png",
+      "miou": 0.05328488385948099,
+      "num_gt_objects": 315,
+      "num_sam_masks": 174,
+      "inference_time": 42.6,
+      "categories": [
+        "ship",
+        "baseball_diamond",
+        "tennis_court",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "ship": 0.0439,
+        "baseball_diamond": 0.7234,
+        "tennis_court": 0.754,
+        "basketball_court": 0.9284,
+        "Ground_Track_Field": 0.9716,
+        "Large_Vehicle": 0.0057,
+        "Small_Vehicle": 0.0166,
+        "Soccer_ball_field": 0.8099
+      }
+    },
+    {
+      "filename": "P2802.png",
+      "miou": 0.00406215378722868,
+      "num_gt_objects": 1650,
+      "num_sam_masks": 121,
+      "inference_time": 30.0,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0058,
+        "Small_Vehicle": 0.0024,
+        "Roundabout": 0.804,
+        "plane": 0.0201
+      }
+    },
+    {
+      "filename": "P0998.png",
+      "miou": 0.06276003111729457,
+      "num_gt_objects": 65,
+      "num_sam_masks": 76,
+      "inference_time": 24.9,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0032,
+        "storage_tank": 0.0,
+        "Large_Vehicle": 0.0041,
+        "Small_Vehicle": 0.0045,
+        "Harbor": 0.1708
+      }
+    },
+    {
+      "filename": "P2625.png",
+      "miou": 0.14826364563538363,
+      "num_gt_objects": 326,
+      "num_sam_masks": 193,
+      "inference_time": 14.5,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.2092,
+        "Small_Vehicle": 0.074
+      }
+    },
+    {
+      "filename": "P1476.png",
+      "miou": 0.4609969105118819,
+      "num_gt_objects": 78,
+      "num_sam_masks": 177,
+      "inference_time": 50.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.4963,
+        "Small_Vehicle": 0.3515
+      }
+    },
+    {
+      "filename": "P1463.png",
+      "miou": 0.14712539433337116,
+      "num_gt_objects": 92,
+      "num_sam_masks": 180,
+      "inference_time": 64.5,
+      "categories": [
+        "tennis_court",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.3403,
+        "basketball_court": 0.8639,
+        "Ground_Track_Field": 0.9023,
+        "Large_Vehicle": 0.3595,
+        "Small_Vehicle": 0.012,
+        "Swimming_pool": 0.9536,
+        "Soccer_ball_field": 0.4765
+      }
+    },
+    {
+      "filename": "P2630.png",
+      "miou": 0.5165992978724643,
+      "num_gt_objects": 108,
+      "num_sam_masks": 213,
+      "inference_time": 31.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.6479,
+        "Small_Vehicle": 0.3525
+      }
+    },
+    {
+      "filename": "P0027.png",
+      "miou": 0.10914188391264301,
+      "num_gt_objects": 78,
+      "num_sam_masks": 167,
+      "inference_time": 71.6,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0158,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.008,
+        "Harbor": 0.28
+      }
+    },
+    {
+      "filename": "P0796.png",
+      "miou": 0.30473566972342764,
+      "num_gt_objects": 336,
+      "num_sam_masks": 207,
+      "inference_time": 27.4,
+      "categories": [
+        "ship",
+        "tennis_court",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.3846,
+        "tennis_court": 0.7619,
+        "Small_Vehicle": 0.0546,
+        "Swimming_pool": 0.6505,
+        "Harbor": 0.1055
+      }
+    },
+    {
+      "filename": "P2181.png",
+      "miou": 0.000903174933075165,
+      "num_gt_objects": 57,
+      "num_sam_masks": 35,
+      "inference_time": 44.4,
+      "categories": [
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.001,
+        "plane": 0.0011
+      }
+    },
+    {
+      "filename": "P0557.png",
+      "miou": 0.4563289189723005,
+      "num_gt_objects": 16,
+      "num_sam_masks": 75,
+      "inference_time": 67.8,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.3821,
+        "Small_Vehicle": 0.0,
+        "Harbor": 0.7074
+      }
+    },
+    {
+      "filename": "P0543.png",
+      "miou": 0.7561320947677634,
+      "num_gt_objects": 7,
+      "num_sam_masks": 71,
+      "inference_time": 80.7,
+      "categories": [
+        "ship",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.7566,
+        "Swimming_pool": 0.9178,
+        "Harbor": 0.7155
+      }
+    },
+    {
+      "filename": "P2220.png",
+      "miou": 0.03311381036315775,
+      "num_gt_objects": 563,
+      "num_sam_masks": 164,
+      "inference_time": 65.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.3119,
+        "Small_Vehicle": 0.0235,
+        "plane": 0.5508
+      }
+    },
+    {
+      "filename": "P2778.png",
+      "miou": 0.0653091283949538,
+      "num_gt_objects": 131,
+      "num_sam_masks": 113,
+      "inference_time": 39.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0167,
+        "Small_Vehicle": 0.0013,
+        "plane": 0.4733
+      }
+    },
+    {
+      "filename": "P0186.png",
+      "miou": 0.8917401364512758,
+      "num_gt_objects": 8,
+      "num_sam_masks": 99,
+      "inference_time": 63.7,
+      "categories": [
+        "tennis_court"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.8917
+      }
+    },
+    {
+      "filename": "P2791.png",
+      "miou": 0.03473995912018185,
+      "num_gt_objects": 334,
+      "num_sam_masks": 178,
+      "inference_time": 59.8,
+      "categories": [
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Helicopter",
+        "Soccer_ball_field",
+        "plane"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.1285,
+        "Large_Vehicle": 0.0062,
+        "Small_Vehicle": 0.0038,
+        "Helicopter": 0.0013,
+        "Soccer_ball_field": 0.645,
+        "plane": 0.3984
+      }
+    },
+    {
+      "filename": "P0838.png",
+      "miou": 0.23722079610802282,
+      "num_gt_objects": 704,
+      "num_sam_masks": 247,
+      "inference_time": 45.3,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.2695,
+        "Small_Vehicle": 0.0345,
+        "Harbor": 0.0781
+      }
+    },
+    {
+      "filename": "P0623.png",
+      "miou": 0.4445979013660311,
+      "num_gt_objects": 60,
+      "num_sam_masks": 153,
+      "inference_time": 27.4,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.5755,
+        "Small_Vehicle": 0.401
+      }
+    },
+    {
+      "filename": "P1529.png",
+      "miou": 0.05698632487872743,
+      "num_gt_objects": 17,
+      "num_sam_masks": 162,
+      "inference_time": 14.9,
+      "categories": [
+        "storage_tank",
+        "Ground_Track_Field",
+        "plane"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "Ground_Track_Field": 0.939,
+        "plane": 0.0027
+      }
+    },
+    {
+      "filename": "P0179.png",
+      "miou": 0.03444490448843312,
+      "num_gt_objects": 275,
+      "num_sam_masks": 193,
+      "inference_time": 35.8,
+      "categories": [
+        "tennis_court",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "plane"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.434,
+        "Large_Vehicle": 0.0823,
+        "Small_Vehicle": 0.0038,
+        "Swimming_pool": 0.2976,
+        "plane": 0.0823
+      }
+    },
+    {
+      "filename": "P1273.png",
+      "miou": 0.07126427711908087,
+      "num_gt_objects": 10,
+      "num_sam_masks": 64,
+      "inference_time": 34.0,
+      "categories": [
+        "ship",
+        "plane"
+      ],
+      "per_category_miou": {
+        "ship": 0.079,
+        "plane": 0.0017
+      }
+    },
+    {
+      "filename": "P1924.png",
+      "miou": 0.8607779037120298,
+      "num_gt_objects": 48,
+      "num_sam_masks": 118,
+      "inference_time": 44.3,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.9024,
+        "Small_Vehicle": 0.7848
+      }
+    },
+    {
+      "filename": "P2593.png",
+      "miou": 0.11851013368250957,
+      "num_gt_objects": 97,
+      "num_sam_masks": 292,
+      "inference_time": 54.1,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.9509,
+        "tennis_court": 0.2275,
+        "basketball_court": 0.6626,
+        "Ground_Track_Field": 0.562,
+        "Large_Vehicle": 0.5127,
+        "Small_Vehicle": 0.0594,
+        "Soccer_ball_field": 0.9457
+      }
+    },
+    {
+      "filename": "P2587.png",
+      "miou": 0.29542545540966225,
+      "num_gt_objects": 26,
+      "num_sam_masks": 271,
+      "inference_time": 68.6,
+      "categories": [
+        "tennis_court",
+        "basketball_court",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.3665,
+        "basketball_court": 0.7561,
+        "Small_Vehicle": 0.1507,
+        "Soccer_ball_field": 0.8875
+      }
+    },
+    {
+      "filename": "P2236.png",
+      "miou": 0.27596614389248014,
+      "num_gt_objects": 72,
+      "num_sam_masks": 87,
+      "inference_time": 62.1,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Helicopter",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.2469,
+        "Small_Vehicle": 0.1151,
+        "Helicopter": 0.6506,
+        "plane": 0.6097
+      }
+    },
+    {
+      "filename": "P0347.png",
+      "miou": 0.24471076621515495,
+      "num_gt_objects": 24,
+      "num_sam_masks": 90,
+      "inference_time": 82.3,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.2747,
+        "Small_Vehicle": 0.1291,
+        "Harbor": 0.4214
+      }
+    },
+    {
+      "filename": "P0353.png",
+      "miou": 0.5437971516464192,
+      "num_gt_objects": 85,
+      "num_sam_masks": 250,
+      "inference_time": 74.1,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "ship": 0.8391,
+        "Large_Vehicle": 0.7698,
+        "Small_Vehicle": 0.4473
+      }
+    },
+    {
+      "filename": "P1065.png",
+      "miou": 0.03199574651526838,
+      "num_gt_objects": 197,
+      "num_sam_masks": 105,
+      "inference_time": 31.6,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0062,
+        "Large_Vehicle": 0.8932,
+        "Small_Vehicle": 0.0076,
+        "Swimming_pool": 0.0299,
+        "Harbor": 0.0791
+      }
+    },
+    {
+      "filename": "P1878.png",
+      "miou": 0.7161711105027148,
+      "num_gt_objects": 37,
+      "num_sam_masks": 210,
+      "inference_time": 42.7,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9063,
+        "Small_Vehicle": 0.2027
+      }
+    },
+    {
+      "filename": "P2342.png",
+      "miou": 0.0032119660267718566,
+      "num_gt_objects": 550,
+      "num_sam_masks": 131,
+      "inference_time": 36.2,
+      "categories": [
+        "tennis_court",
+        "Ground_Track_Field",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.2641,
+        "Ground_Track_Field": 0.3949,
+        "Bridge": 0.0,
+        "Large_Vehicle": 0.002,
+        "Small_Vehicle": 0.0001
+      }
+    },
+    {
+      "filename": "P2197.png",
+      "miou": 0.06442227081691974,
+      "num_gt_objects": 236,
+      "num_sam_masks": 131,
+      "inference_time": 28.3,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.8177,
+        "tennis_court": 0.3044,
+        "basketball_court": 0.1481,
+        "Ground_Track_Field": 0.8864,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0151,
+        "Soccer_ball_field": 0.6298
+      }
+    },
+    {
+      "filename": "P0970.png",
+      "miou": 0.2027757325680765,
+      "num_gt_objects": 38,
+      "num_sam_masks": 85,
+      "inference_time": 51.3,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1345,
+        "Small_Vehicle": 0.1445,
+        "Swimming_pool": 0.2032,
+        "Harbor": 0.2585
+      }
+    },
+    {
+      "filename": "P0964.png",
+      "miou": 0.21494688513901586,
+      "num_gt_objects": 25,
+      "num_sam_masks": 62,
+      "inference_time": 38.8,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.2371,
+        "Small_Vehicle": 0.0004,
+        "Swimming_pool": 0.3532,
+        "Harbor": 0.2587
+      }
+    },
+    {
+      "filename": "P2168.png",
+      "miou": 0.21866392254395525,
+      "num_gt_objects": 46,
+      "num_sam_masks": 92,
+      "inference_time": 71.6,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "basketball_court",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.5042,
+        "tennis_court": 0.6384,
+        "basketball_court": 0.2001,
+        "Small_Vehicle": 0.0481,
+        "Soccer_ball_field": 0.0158
+      }
+    },
+    {
+      "filename": "P0019.png",
+      "miou": 0.039255855412514,
+      "num_gt_objects": 159,
+      "num_sam_masks": 166,
+      "inference_time": 69.8,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0086,
+        "Large_Vehicle": 0.0054,
+        "Small_Vehicle": 0.0127,
+        "Harbor": 0.0987
+      }
+    },
+    {
+      "filename": "P2169.png",
+      "miou": 0.0063694396791150205,
+      "num_gt_objects": 121,
+      "num_sam_masks": 117,
+      "inference_time": 43.4,
+      "categories": [
+        "tennis_court",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.1195,
+        "Large_Vehicle": 0.0012,
+        "Small_Vehicle": 0.0008,
+        "Swimming_pool": 0.1456
+      }
+    },
+    {
+      "filename": "P1474.png",
+      "miou": 0.01956439152848549,
+      "num_gt_objects": 125,
+      "num_sam_masks": 175,
+      "inference_time": 27.3,
+      "categories": [
+        "basketball_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field",
+        "plane"
+      ],
+      "per_category_miou": {
+        "basketball_court": 0.084,
+        "Ground_Track_Field": 0.7291,
+        "Large_Vehicle": 0.0027,
+        "Small_Vehicle": 0.0007,
+        "Soccer_ball_field": 0.3549,
+        "plane": 0.0
+      }
+    },
+    {
+      "filename": "P2155.png",
+      "miou": 0.3428508546926903,
+      "num_gt_objects": 134,
+      "num_sam_masks": 163,
+      "inference_time": 33.6,
+      "categories": [
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "Large_Vehicle": 0.3826,
+        "Small_Vehicle": 0.1924
+      }
+    },
+    {
+      "filename": "P0795.png",
+      "miou": 0.2879053803331097,
+      "num_gt_objects": 402,
+      "num_sam_masks": 245,
+      "inference_time": 26.6,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.3151,
+        "Large_Vehicle": 0.0018,
+        "Small_Vehicle": 0.0913,
+        "Swimming_pool": 0.4144,
+        "Harbor": 0.1541
+      }
+    },
+    {
+      "filename": "P1138.png",
+      "miou": 0.780539786521332,
+      "num_gt_objects": 2,
+      "num_sam_masks": 41,
+      "inference_time": 72.9,
+      "categories": [
+        "plane"
+      ],
+      "per_category_miou": {
+        "plane": 0.7805
+      }
+    },
+    {
+      "filename": "P0583.png",
+      "miou": 0.2247898143581098,
+      "num_gt_objects": 16,
+      "num_sam_masks": 24,
+      "inference_time": 55.8,
+      "categories": [
+        "ship",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1831,
+        "Harbor": 0.2665
+      }
+    },
+    {
+      "filename": "P2394.png",
+      "miou": 0.001282051282051282,
+      "num_gt_objects": 5,
+      "num_sam_masks": 280,
+      "inference_time": 49.1,
+      "categories": [
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "Bridge": 0.0013
+      }
+    },
+    {
+      "filename": "P0352.png",
+      "miou": 0.580182908320966,
+      "num_gt_objects": 29,
+      "num_sam_masks": 122,
+      "inference_time": 59.8,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "basketball_court",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.9446,
+        "tennis_court": 0.9011,
+        "basketball_court": 0.8,
+        "Large_Vehicle": 0.0355,
+        "Small_Vehicle": 0.4629
+      }
+    },
+    {
+      "filename": "P0420.png",
+      "miou": 0.3309746636829893,
+      "num_gt_objects": 31,
+      "num_sam_masks": 111,
+      "inference_time": 98.4,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.2591,
+        "Small_Vehicle": 0.0786,
+        "Swimming_pool": 0.4618,
+        "Harbor": 0.5144
+      }
+    },
+    {
+      "filename": "P1919.png",
+      "miou": 0.6731663197162315,
+      "num_gt_objects": 22,
+      "num_sam_masks": 127,
+      "inference_time": 105.5,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.901,
+        "Small_Vehicle": 0.2745
+      }
+    },
+    {
+      "filename": "P0385.png",
+      "miou": 0.6872040895273201,
+      "num_gt_objects": 15,
+      "num_sam_masks": 54,
+      "inference_time": 50.0,
+      "categories": [
+        "tennis_court",
+        "basketball_court",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9416,
+        "basketball_court": 0.9261,
+        "Small_Vehicle": 0.5497,
+        "Soccer_ball_field": 0.6169
+      }
+    },
+    {
+      "filename": "P2592.png",
+      "miou": 0.09704349669314931,
+      "num_gt_objects": 100,
+      "num_sam_masks": 295,
+      "inference_time": 75.2,
+      "categories": [
+        "tennis_court",
+        "Ground_Track_Field",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.2684,
+        "Ground_Track_Field": 0.9577,
+        "Bridge": 0.0,
+        "Large_Vehicle": 0.1699,
+        "Small_Vehicle": 0.0382,
+        "Soccer_ball_field": 0.9443
+      }
+    },
+    {
+      "filename": "P1266.png",
+      "miou": 0.07823471078423382,
+      "num_gt_objects": 11,
+      "num_sam_masks": 279,
+      "inference_time": 45.5,
+      "categories": [
+        "ship",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "ship": 0.1228,
+        "Bridge": 0.0002
+      }
+    },
+    {
+      "filename": "P0150.png",
+      "miou": 0.07320072976351613,
+      "num_gt_objects": 87,
+      "num_sam_masks": 361,
+      "inference_time": 53.8,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.8176,
+        "tennis_court": 0.7716,
+        "Small_Vehicle": 0.0562
+      }
+    },
+    {
+      "filename": "P0622.png",
+      "miou": 0.6905404282548141,
+      "num_gt_objects": 13,
+      "num_sam_masks": 119,
+      "inference_time": 62.4,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.4882,
+        "Small_Vehicle": 0.5596,
+        "Harbor": 0.8081
+      }
+    },
+    {
+      "filename": "P0839.png",
+      "miou": 0.227205356741185,
+      "num_gt_objects": 484,
+      "num_sam_masks": 190,
+      "inference_time": 37.3,
+      "categories": [
+        "ship",
+        "Bridge",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.2464,
+        "Bridge": 0.0009,
+        "Small_Vehicle": 0.0359,
+        "Harbor": 0.0314
+      }
+    },
+    {
+      "filename": "P1598.png",
+      "miou": 0.08079919208167631,
+      "num_gt_objects": 33,
+      "num_sam_masks": 168,
+      "inference_time": 23.0,
+      "categories": [
+        "Ground_Track_Field",
+        "Roundabout",
+        "Soccer_ball_field",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Ground_Track_Field": 0.1216,
+        "Roundabout": 0.1217,
+        "Soccer_ball_field": 0.4757,
+        "plane": 0.0074
+      }
+    },
+    {
+      "filename": "P2085.png",
+      "miou": 0.964450516201983,
+      "num_gt_objects": 5,
+      "num_sam_masks": 75,
+      "inference_time": 24.7,
+      "categories": [
+        "tennis_court",
+        "basketball_court"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9531,
+        "basketball_court": 0.972
+      }
+    },
+    {
+      "filename": "P1573.png",
+      "miou": 0.2746541669008821,
+      "num_gt_objects": 18,
+      "num_sam_masks": 89,
+      "inference_time": 31.6,
+      "categories": [
+        "baseball_diamond"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.2747
+      }
+    },
+    {
+      "filename": "P0123.png",
+      "miou": 0.2769615680757522,
+      "num_gt_objects": 119,
+      "num_sam_masks": 267,
+      "inference_time": 66.5,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.8474,
+        "Small_Vehicle": 0.2189
+      }
+    },
+    {
+      "filename": "P0651.png",
+      "miou": 0.9509545132395607,
+      "num_gt_objects": 15,
+      "num_sam_masks": 52,
+      "inference_time": 43.9,
+      "categories": [
+        "tennis_court"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.951
+      }
+    },
+    {
+      "filename": "P0309.png",
+      "miou": 0.5025247498713407,
+      "num_gt_objects": 9,
+      "num_sam_masks": 53,
+      "inference_time": 59.6,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0217,
+        "Small_Vehicle": 0.5556,
+        "Harbor": 0.5636
+      }
+    },
+    {
+      "filename": "P1759.png",
+      "miou": 0.31738035264483627,
+      "num_gt_objects": 2,
+      "num_sam_masks": 117,
+      "inference_time": 48.4,
+      "categories": [
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Roundabout": 0.3174
+      }
+    },
+    {
+      "filename": "P1995.png",
+      "miou": 0.29609044370934695,
+      "num_gt_objects": 120,
+      "num_sam_masks": 220,
+      "inference_time": 29.2,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.4053,
+        "Small_Vehicle": 0.0604
+      }
+    },
+    {
+      "filename": "P2481.png",
+      "miou": 0.00987266723193066,
+      "num_gt_objects": 113,
+      "num_sam_masks": 202,
+      "inference_time": 73.4,
+      "categories": [
+        "storage_tank",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "Small_Vehicle": 0.0101
+      }
+    },
+    {
+      "filename": "P2330.png",
+      "miou": 0.07463968716755381,
+      "num_gt_objects": 197,
+      "num_sam_masks": 34,
+      "inference_time": 38.4,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "ship": 0.0845,
+        "Small_Vehicle": 0.0002,
+        "plane": 0.0001
+      }
+    },
+    {
+      "filename": "P2126.png",
+      "miou": 0.344185624793803,
+      "num_gt_objects": 116,
+      "num_sam_masks": 211,
+      "inference_time": 55.0,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.4125,
+        "Small_Vehicle": 0.2039
+      }
+    },
+    {
+      "filename": "P0725.png",
+      "miou": 0.5575575501918104,
+      "num_gt_objects": 67,
+      "num_sam_masks": 199,
+      "inference_time": 92.7,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.5528,
+        "Small_Vehicle": 0.5159,
+        "Swimming_pool": 0.0,
+        "Harbor": 0.6376
+      }
+    },
+    {
+      "filename": "P0056.png",
+      "miou": 0.714831591360259,
+      "num_gt_objects": 36,
+      "num_sam_masks": 121,
+      "inference_time": 56.0,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.7038,
+        "Small_Vehicle": 0.7271
+      }
+    },
+    {
+      "filename": "P0081.png",
+      "miou": 0.433041565455349,
+      "num_gt_objects": 4,
+      "num_sam_masks": 126,
+      "inference_time": 75.5,
+      "categories": [
+        "Small_Vehicle",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Small_Vehicle": 0.252,
+        "Roundabout": 0.9762
+      }
+    },
+    {
+      "filename": "P0526.png",
+      "miou": 0.3970326542660035,
+      "num_gt_objects": 13,
+      "num_sam_masks": 92,
+      "inference_time": 129.3,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.3934,
+        "Small_Vehicle": 0.0,
+        "Harbor": 0.6389
+      }
+    },
+    {
+      "filename": "P2331.png",
+      "miou": 0.004387403550770456,
+      "num_gt_objects": 2299,
+      "num_sam_masks": 201,
+      "inference_time": 39.1,
+      "categories": [
+        "ship",
+        "baseball_diamond",
+        "tennis_court",
+        "Ground_Track_Field",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Roundabout",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.088,
+        "baseball_diamond": 0.6265,
+        "tennis_court": 0.2476,
+        "Ground_Track_Field": 0.859,
+        "Bridge": 0.2081,
+        "Large_Vehicle": 0.0021,
+        "Small_Vehicle": 0.0008,
+        "Swimming_pool": 0.323,
+        "Roundabout": 0.803,
+        "Harbor": 0.5165
+      }
+    },
+    {
+      "filename": "P1604.png",
+      "miou": 0.08784567612162761,
+      "num_gt_objects": 11,
+      "num_sam_masks": 311,
+      "inference_time": 34.3,
+      "categories": [
+        "Ground_Track_Field",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Ground_Track_Field": 0.9218,
+        "plane": 0.0045
+      }
+    },
+    {
+      "filename": "P1610.png",
+      "miou": 0.001550944597503795,
+      "num_gt_objects": 41,
+      "num_sam_masks": 139,
+      "inference_time": 32.4,
+      "categories": [
+        "storage_tank",
+        "Bridge",
+        "Roundabout",
+        "plane"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "Bridge": 0.0013,
+        "Roundabout": 0.0,
+        "plane": 0.0019
+      }
+    },
+    {
+      "filename": "P1189.png",
+      "miou": 0.34862661082523905,
+      "num_gt_objects": 57,
+      "num_sam_masks": 174,
+      "inference_time": 22.5,
+      "categories": [
+        "tennis_court",
+        "basketball_court",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.8853,
+        "basketball_court": 0.9278,
+        "Large_Vehicle": 0.3381,
+        "Small_Vehicle": 0.2005
+      }
+    },
+    {
+      "filename": "P1770.png",
+      "miou": 0.05678016605111716,
+      "num_gt_objects": 16,
+      "num_sam_masks": 73,
+      "inference_time": 13.2,
+      "categories": [
+        "storage_tank",
+        "Bridge",
+        "Roundabout",
+        "plane"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0014,
+        "Bridge": 0.0009,
+        "Roundabout": 0.2253,
+        "plane": 0.0
+      }
+    },
+    {
+      "filename": "P2286.png",
+      "miou": 0.022202068045200012,
+      "num_gt_objects": 449,
+      "num_sam_masks": 82,
+      "inference_time": 15.2,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "baseball_diamond",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0209,
+        "storage_tank": 0.1429,
+        "baseball_diamond": 0.1048,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0002,
+        "Harbor": 0.0
+      }
+    },
+    {
+      "filename": "P0491.png",
+      "miou": 0.714932409439465,
+      "num_gt_objects": 10,
+      "num_sam_masks": 116,
+      "inference_time": 63.4,
+      "categories": [
+        "baseball_diamond",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.9431,
+        "Large_Vehicle": 0.431,
+        "Small_Vehicle": 0.0582
+      }
+    },
+    {
+      "filename": "P1957.png",
+      "miou": 0.35825785726198256,
+      "num_gt_objects": 233,
+      "num_sam_masks": 329,
+      "inference_time": 46.2,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.6114,
+        "Small_Vehicle": 0.1357
+      }
+    },
+    {
+      "filename": "P0650.png",
+      "miou": 0.8610152793757134,
+      "num_gt_objects": 9,
+      "num_sam_masks": 70,
+      "inference_time": 62.8,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.895,
+        "Small_Vehicle": 0.7421
+      }
+    },
+    {
+      "filename": "P2721.png",
+      "miou": 0.062013284801651525,
+      "num_gt_objects": 42,
+      "num_sam_masks": 126,
+      "inference_time": 23.0,
+      "categories": [
+        "storage_tank",
+        "Ground_Track_Field",
+        "Bridge",
+        "Roundabout",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "Ground_Track_Field": 0.0983,
+        "Bridge": 0.0,
+        "Roundabout": 0.0,
+        "Soccer_ball_field": 0.0461
+      }
+    },
+    {
+      "filename": "P2709.png",
+      "miou": 0.20359638286529425,
+      "num_gt_objects": 256,
+      "num_sam_masks": 261,
+      "inference_time": 18.4,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "ship": 0.5412,
+        "storage_tank": 0.307,
+        "Large_Vehicle": 0.0811,
+        "Small_Vehicle": 0.0086,
+        "Roundabout": 0.9057
+      }
+    },
+    {
+      "filename": "P1566.png",
+      "miou": 0.11314485283215643,
+      "num_gt_objects": 18,
+      "num_sam_masks": 184,
+      "inference_time": 17.9,
+      "categories": [
+        "baseball_diamond",
+        "Bridge",
+        "plane"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.4073,
+        "Bridge": 0.0,
+        "plane": 0.0
+      }
+    },
+    {
+      "filename": "P1570.png",
+      "miou": 0.06138715094501889,
+      "num_gt_objects": 7,
+      "num_sam_masks": 108,
+      "inference_time": 13.0,
+      "categories": [
+        "baseball_diamond",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.1074,
+        "Bridge": 0.0
+      }
+    },
+    {
+      "filename": "P1014.png",
+      "miou": 0.06648124541875727,
+      "num_gt_objects": 401,
+      "num_sam_masks": 417,
+      "inference_time": 15.7,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0437,
+        "Large_Vehicle": 0.0085,
+        "Small_Vehicle": 0.0118,
+        "Swimming_pool": 0.0994,
+        "Harbor": 0.0948
+      }
+    },
+    {
+      "filename": "P0336.png",
+      "miou": 0.3312911427024493,
+      "num_gt_objects": 31,
+      "num_sam_masks": 106,
+      "inference_time": 44.5,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1362,
+        "Small_Vehicle": 0.0271,
+        "Swimming_pool": 0.6977,
+        "Harbor": 0.4702
+      }
+    },
+    {
+      "filename": "P1982.png",
+      "miou": 0.41291465360388185,
+      "num_gt_objects": 159,
+      "num_sam_masks": 195,
+      "inference_time": 36.0,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.5543,
+        "Small_Vehicle": 0.1796
+      }
+    },
+    {
+      "filename": "P1809.png",
+      "miou": 0.0013175051251336587,
+      "num_gt_objects": 4241,
+      "num_sam_masks": 133,
+      "inference_time": 56.5,
+      "categories": [
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout",
+        "plane"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0295,
+        "Large_Vehicle": 0.0009,
+        "Small_Vehicle": 0.0007,
+        "Roundabout": 0.2926,
+        "plane": 0.0031
+      }
+    },
+    {
+      "filename": "P1821.png",
+      "miou": 0.591957050181803,
+      "num_gt_objects": 150,
+      "num_sam_masks": 325,
+      "inference_time": 76.3,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.6618,
+        "Small_Vehicle": 0.5121
+      }
+    },
+    {
+      "filename": "P0518.png",
+      "miou": 0.44750237069887394,
+      "num_gt_objects": 14,
+      "num_sam_masks": 75,
+      "inference_time": 42.5,
+      "categories": [
+        "ship",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.4277,
+        "Swimming_pool": 0.7117,
+        "Harbor": 0.3127
+      }
+    },
+    {
+      "filename": "P0524.png",
+      "miou": 0.30606747760001735,
+      "num_gt_objects": 19,
+      "num_sam_masks": 111,
+      "inference_time": 107.5,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1936,
+        "Small_Vehicle": 0.3108,
+        "Harbor": 0.4152
+      }
+    },
+    {
+      "filename": "P0242.png",
+      "miou": 0.9205374193654692,
+      "num_gt_objects": 10,
+      "num_sam_masks": 93,
+      "inference_time": 84.6,
+      "categories": [
+        "tennis_court",
+        "basketball_court",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9299,
+        "basketball_court": 0.9557,
+        "Soccer_ball_field": 0.8104
+      }
+    },
+    {
+      "filename": "P2455.png",
+      "miou": 0.004625120227799169,
+      "num_gt_objects": 353,
+      "num_sam_masks": 240,
+      "inference_time": 65.8,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0028,
+        "Small_Vehicle": 0.0019,
+        "Swimming_pool": 0.0,
+        "Roundabout": 0.9004
+      }
+    },
+    {
+      "filename": "P0929.png",
+      "miou": 0.2094060250659035,
+      "num_gt_objects": 36,
+      "num_sam_masks": 38,
+      "inference_time": 31.2,
+      "categories": [
+        "ship",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1679,
+        "Harbor": 0.2277
       }
     },
     {
@@ -75,7 +6776,7 @@
       "miou": 0.006221845775955645,
       "num_gt_objects": 2258,
       "num_sam_masks": 114,
-      "inference_time": 11.4,
+      "inference_time": 26.1,
       "categories": [
         "ship",
         "baseball_diamond",
@@ -98,18 +6799,1361 @@
       }
     },
     {
-      "filename": "P1877.png",
-      "miou": 0.3154868033016301,
-      "num_gt_objects": 123,
-      "num_sam_masks": 146,
-      "inference_time": 15.9,
+      "filename": "P1376.png",
+      "miou": 0.001035760185028682,
+      "num_gt_objects": 290,
+      "num_sam_masks": 179,
+      "inference_time": 23.9,
+      "categories": [
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "plane"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "Large_Vehicle": 0.0016,
+        "Small_Vehicle": 0.001,
+        "Swimming_pool": 0.0,
+        "plane": 0.0002
+      }
+    },
+    {
+      "filename": "P2124.png",
+      "miou": 0.2095789285465984,
+      "num_gt_objects": 253,
+      "num_sam_masks": 267,
+      "inference_time": 40.2,
       "categories": [
         "Large_Vehicle",
         "Small_Vehicle"
       ],
       "per_category_miou": {
-        "Large_Vehicle": 0.3206,
-        "Small_Vehicle": 0.2786
+        "Large_Vehicle": 0.233,
+        "Small_Vehicle": 0.142
+      }
+    },
+    {
+      "filename": "P1377.png",
+      "miou": 0.019664997503321936,
+      "num_gt_objects": 232,
+      "num_sam_masks": 267,
+      "inference_time": 27.4,
+      "categories": [
+        "storage_tank",
+        "basketball_court",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "basketball_court": 0.4356,
+        "Bridge": 0.0,
+        "Large_Vehicle": 0.0016,
+        "Small_Vehicle": 0.0004,
+        "Swimming_pool": 0.0452,
+        "Soccer_ball_field": 0.9187
+      }
+    },
+    {
+      "filename": "P2695.png",
+      "miou": 0.01466052402208237,
+      "num_gt_objects": 1025,
+      "num_sam_masks": 162,
+      "inference_time": 48.0,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "ship": 0.0001,
+        "storage_tank": 0.0158,
+        "Bridge": 0.0006,
+        "Large_Vehicle": 0.0001,
+        "Small_Vehicle": 0.0004
+      }
+    },
+    {
+      "filename": "P0257.png",
+      "miou": 0.08997122323457504,
+      "num_gt_objects": 349,
+      "num_sam_masks": 148,
+      "inference_time": 268.6,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.4313,
+        "Small_Vehicle": 0.0442,
+        "plane": 0.4955
+      }
+    },
+    {
+      "filename": "P1149.png",
+      "miou": 0.4759941108216993,
+      "num_gt_objects": 18,
+      "num_sam_masks": 88,
+      "inference_time": 454.3,
+      "categories": [
+        "Helicopter",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Helicopter": 0.434,
+        "plane": 0.56
+      }
+    },
+    {
+      "filename": "P0525.png",
+      "miou": 0.5055073431503591,
+      "num_gt_objects": 11,
+      "num_sam_masks": 70,
+      "inference_time": 52.6,
+      "categories": [
+        "ship",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.4368,
+        "Harbor": 0.5627
+      }
+    },
+    {
+      "filename": "P1983.png",
+      "miou": 0.14633121090304937,
+      "num_gt_objects": 374,
+      "num_sam_masks": 295,
+      "inference_time": 544.9,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.3923,
+        "Small_Vehicle": 0.0815
+      }
+    },
+    {
+      "filename": "P1029.png",
+      "miou": 0.14650673913623607,
+      "num_gt_objects": 59,
+      "num_sam_masks": 241,
+      "inference_time": 664.1,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0266,
+        "Small_Vehicle": 0.0026,
+        "Harbor": 0.2664
+      }
+    },
+    {
+      "filename": "P0486.png",
+      "miou": 0.48257843436107434,
+      "num_gt_objects": 69,
+      "num_sam_masks": 177,
+      "inference_time": 1004.3,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.7079,
+        "Small_Vehicle": 0.3463
+      }
+    },
+    {
+      "filename": "P1940.png",
+      "miou": 0.3496322296395414,
+      "num_gt_objects": 233,
+      "num_sam_masks": 200,
+      "inference_time": 59.6,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.3748,
+        "Small_Vehicle": 0.2164
+      }
+    },
+    {
+      "filename": "P2285.png",
+      "miou": 0.05571607011213884,
+      "num_gt_objects": 300,
+      "num_sam_masks": 83,
+      "inference_time": 497.5,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Soccer_ball_field",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1316,
+        "Small_Vehicle": 0.0049,
+        "Soccer_ball_field": 0.9368,
+        "Harbor": 0.0
+      }
+    },
+    {
+      "filename": "P0647.png",
+      "miou": 0.8158411090460032,
+      "num_gt_objects": 11,
+      "num_sam_masks": 101,
+      "inference_time": 1573.1,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.909,
+        "Small_Vehicle": 0.7626
+      }
+    },
+    {
+      "filename": "P2050.png",
+      "miou": 0.30210720120755596,
+      "num_gt_objects": 74,
+      "num_sam_masks": 194,
+      "inference_time": 69.5,
+      "categories": [
+        "tennis_court",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9273,
+        "Large_Vehicle": 0.3057,
+        "Small_Vehicle": 0.2198
+      }
+    },
+    {
+      "filename": "P2722.png",
+      "miou": 0.0,
+      "num_gt_objects": 25,
+      "num_sam_masks": 166,
+      "inference_time": 538.8,
+      "categories": [
+        "Ground_Track_Field",
+        "Bridge",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "Ground_Track_Field": 0.0,
+        "Bridge": 0.0,
+        "Soccer_ball_field": 0.0
+      }
+    },
+    {
+      "filename": "P2044.png",
+      "miou": 0.8199742544454931,
+      "num_gt_objects": 11,
+      "num_sam_masks": 103,
+      "inference_time": 948.9,
+      "categories": [
+        "tennis_court",
+        "basketball_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9142,
+        "basketball_court": 0.6473,
+        "Small_Vehicle": 0.7466
+      }
+    },
+    {
+      "filename": "P2093.png",
+      "miou": 0.7376603530778365,
+      "num_gt_objects": 125,
+      "num_sam_masks": 221,
+      "inference_time": 944.0,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.8052,
+        "Small_Vehicle": 0.4214
+      }
+    },
+    {
+      "filename": "P0684.png",
+      "miou": 0.7935867647276412,
+      "num_gt_objects": 15,
+      "num_sam_masks": 99,
+      "inference_time": 949.0,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.8268,
+        "Small_Vehicle": 0.6606
+      }
+    },
+    {
+      "filename": "P0858.png",
+      "miou": 0.053801638035721785,
+      "num_gt_objects": 720,
+      "num_sam_masks": 113,
+      "inference_time": 640.1,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0587,
+        "Large_Vehicle": 0.0548,
+        "Small_Vehicle": 0.0284,
+        "Harbor": 0.1671
+      }
+    },
+    {
+      "filename": "P2097.png",
+      "miou": 0.03204206703055012,
+      "num_gt_objects": 789,
+      "num_sam_masks": 250,
+      "inference_time": 50.4,
+      "categories": [
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.7306,
+        "Large_Vehicle": 0.3319,
+        "Small_Vehicle": 0.0158
+      }
+    },
+    {
+      "filename": "P0864.png",
+      "miou": 0.04452913496819036,
+      "num_gt_objects": 732,
+      "num_sam_masks": 113,
+      "inference_time": 40.8,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0547,
+        "Large_Vehicle": 0.0171,
+        "Small_Vehicle": 0.0055,
+        "Harbor": 0.2617
+      }
+    },
+    {
+      "filename": "P2726.png",
+      "miou": 0.13358163873649836,
+      "num_gt_objects": 383,
+      "num_sam_masks": 161,
+      "inference_time": 29.9,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1434,
+        "Small_Vehicle": 0.0008,
+        "Harbor": 0.3518
+      }
+    },
+    {
+      "filename": "P0131.png",
+      "miou": 0.11463704135448675,
+      "num_gt_objects": 217,
+      "num_sam_masks": 265,
+      "inference_time": 17.5,
+      "categories": [
+        "ship",
+        "baseball_diamond",
+        "tennis_court",
+        "basketball_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "ship": 0.0,
+        "baseball_diamond": 0.7996,
+        "tennis_court": 0.8942,
+        "basketball_court": 0.9067,
+        "Ground_Track_Field": 0.9676,
+        "Large_Vehicle": 0.7841,
+        "Small_Vehicle": 0.0371,
+        "Swimming_pool": 0.2494,
+        "Soccer_ball_field": 0.6211
+      }
+    },
+    {
+      "filename": "P0643.png",
+      "miou": 0.6449083220680124,
+      "num_gt_objects": 34,
+      "num_sam_masks": 93,
+      "inference_time": 25.0,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.8467,
+        "Small_Vehicle": 0.3893
+      }
+    },
+    {
+      "filename": "P1213.png",
+      "miou": 9.537379852857304e-06,
+      "num_gt_objects": 9,
+      "num_sam_masks": 2,
+      "inference_time": 78.8,
+      "categories": [
+        "ship"
+      ],
+      "per_category_miou": {
+        "ship": 0.0
+      }
+    },
+    {
+      "filename": "P1561.png",
+      "miou": 0.04266358219867069,
+      "num_gt_objects": 2,
+      "num_sam_masks": 124,
+      "inference_time": 53.1,
+      "categories": [
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "Bridge": 0.0427
+      }
+    },
+    {
+      "filename": "P2068.png",
+      "miou": 0.6120852723143207,
+      "num_gt_objects": 146,
+      "num_sam_masks": 155,
+      "inference_time": 30.9,
+      "categories": [
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Small_Vehicle": 0.6121
+      }
+    },
+    {
+      "filename": "P1950.png",
+      "miou": 0.5784620322258791,
+      "num_gt_objects": 85,
+      "num_sam_masks": 165,
+      "inference_time": 47.3,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.6342,
+        "Small_Vehicle": 0.4651
+      }
+    },
+    {
+      "filename": "P1978.png",
+      "miou": 0.2310313215699825,
+      "num_gt_objects": 263,
+      "num_sam_masks": 262,
+      "inference_time": 31.2,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.464,
+        "Small_Vehicle": 0.1159
+      }
+    },
+    {
+      "filename": "P2242.png",
+      "miou": 0.041607795964020304,
+      "num_gt_objects": 377,
+      "num_sam_masks": 104,
+      "inference_time": 30.8,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Helicopter",
+        "plane"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.1703,
+        "Small_Vehicle": 0.0127,
+        "Helicopter": 0.0819,
+        "plane": 0.0627
+      }
+    },
+    {
+      "filename": "P2256.png",
+      "miou": 0.002003682588617056,
+      "num_gt_objects": 537,
+      "num_sam_masks": 37,
+      "inference_time": 39.8,
+      "categories": [
+        "ship",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool"
+      ],
+      "per_category_miou": {
+        "ship": 0.0,
+        "Bridge": 0.0002,
+        "Large_Vehicle": 0.0184,
+        "Small_Vehicle": 0.0014,
+        "Swimming_pool": 0.0045
+      }
+    },
+    {
+      "filename": "P1763.png",
+      "miou": 0.0,
+      "num_gt_objects": 4,
+      "num_sam_masks": 258,
+      "inference_time": 25.9,
+      "categories": [
+        "Bridge",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Bridge": 0.0,
+        "Roundabout": 0.0
+      }
+    },
+    {
+      "filename": "P1005.png",
+      "miou": 0.020884857917646348,
+      "num_gt_objects": 114,
+      "num_sam_masks": 74,
+      "inference_time": 26.5,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0237,
+        "Small_Vehicle": 0.0035,
+        "Swimming_pool": 0.0,
+        "Harbor": 0.0501
+      }
+    },
+    {
+      "filename": "P2450.png",
+      "miou": 0.002843047260477528,
+      "num_gt_objects": 357,
+      "num_sam_masks": 225,
+      "inference_time": 25.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0126,
+        "Small_Vehicle": 0.0022,
+        "Roundabout": 0.0
+      }
+    },
+    {
+      "filename": "P2322.png",
+      "miou": 0.27008727616193234,
+      "num_gt_objects": 13,
+      "num_sam_masks": 35,
+      "inference_time": 82.1,
+      "categories": [
+        "ship",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "ship": 0.501,
+        "Small_Vehicle": 0.0007
+      }
+    },
+    {
+      "filename": "P2478.png",
+      "miou": 0.024280151237317762,
+      "num_gt_objects": 39,
+      "num_sam_masks": 221,
+      "inference_time": 99.5,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0007,
+        "Swimming_pool": 0.0024,
+        "Roundabout": 0.9165
+      }
+    },
+    {
+      "filename": "P1398.png",
+      "miou": 0.5300692323417663,
+      "num_gt_objects": 103,
+      "num_sam_masks": 96,
+      "inference_time": 24.3,
+      "categories": [
+        "plane"
+      ],
+      "per_category_miou": {
+        "plane": 0.5301
+      }
+    },
+    {
+      "filename": "P0086.png",
+      "miou": 0.3941788891400213,
+      "num_gt_objects": 147,
+      "num_sam_masks": 226,
+      "inference_time": 31.9,
+      "categories": [
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Roundabout",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "Small_Vehicle": 0.3795,
+        "Swimming_pool": 0.9097,
+        "Roundabout": 0.9775,
+        "Soccer_ball_field": 0.8827
+      }
+    },
+    {
+      "filename": "P0904.png",
+      "miou": 0.4498302780938961,
+      "num_gt_objects": 29,
+      "num_sam_masks": 123,
+      "inference_time": 46.3,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.7844,
+        "Small_Vehicle": 0.2965,
+        "Swimming_pool": 0.6526,
+        "Roundabout": 0.9729
+      }
+    },
+    {
+      "filename": "P0910.png",
+      "miou": 0.08414940962884129,
+      "num_gt_objects": 188,
+      "num_sam_masks": 180,
+      "inference_time": 49.8,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0656,
+        "Small_Vehicle": 0.0094,
+        "Harbor": 0.201
+      }
+    },
+    {
+      "filename": "P1429.png",
+      "miou": 0.1961538590474972,
+      "num_gt_objects": 50,
+      "num_sam_masks": 60,
+      "inference_time": 31.8,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.1871,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0,
+        "Harbor": 0.5257
+      }
+    },
+    {
+      "filename": "P0079.png",
+      "miou": 0.8416624248883556,
+      "num_gt_objects": 5,
+      "num_sam_masks": 209,
+      "inference_time": 37.1,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.6456,
+        "Small_Vehicle": 0.8355,
+        "Swimming_pool": 0.9271,
+        "Roundabout": 0.9647
+      }
+    },
+    {
+      "filename": "P1373.png",
+      "miou": 0.04126588982663326,
+      "num_gt_objects": 68,
+      "num_sam_masks": 180,
+      "inference_time": 30.3,
+      "categories": [
+        "storage_tank",
+        "basketball_court",
+        "Ground_Track_Field",
+        "plane"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0227,
+        "basketball_court": 0.0001,
+        "Ground_Track_Field": 0.8214,
+        "plane": 0.0
+      }
+    },
+    {
+      "filename": "P2121.png",
+      "miou": 0.49619572016767527,
+      "num_gt_objects": 28,
+      "num_sam_masks": 130,
+      "inference_time": 64.0,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.629,
+        "tennis_court": 0.9324,
+        "Ground_Track_Field": 0.6504,
+        "Large_Vehicle": 0.7661,
+        "Small_Vehicle": 0.228,
+        "Soccer_ball_field": 0.7409
+      }
+    },
+    {
+      "filename": "P2135.png",
+      "miou": 0.41923505910120545,
+      "num_gt_objects": 65,
+      "num_sam_masks": 118,
+      "inference_time": 75.8,
+      "categories": [
+        "tennis_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "tennis_court": 0.9146,
+        "Small_Vehicle": 0.3689
+      }
+    },
+    {
+      "filename": "P0246.png",
+      "miou": 0.7171927866541126,
+      "num_gt_objects": 45,
+      "num_sam_masks": 157,
+      "inference_time": 69.2,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.8138,
+        "Small_Vehicle": 0.585
+      }
+    },
+    {
+      "filename": "P2337.png",
+      "miou": 0.03064606741264651,
+      "num_gt_objects": 722,
+      "num_sam_masks": 145,
+      "inference_time": 58.6,
+      "categories": [
+        "storage_tank",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.8307,
+        "Bridge": 0.0001,
+        "Large_Vehicle": 0.0116,
+        "Small_Vehicle": 0.0028
+      }
+    },
+    {
+      "filename": "P1825.png",
+      "miou": 0.5560902698219206,
+      "num_gt_objects": 28,
+      "num_sam_masks": 141,
+      "inference_time": 51.5,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.5767,
+        "Small_Vehicle": 0.0
+      }
+    },
+    {
+      "filename": "P1992.png",
+      "miou": 0.11941244434924049,
+      "num_gt_objects": 383,
+      "num_sam_masks": 256,
+      "inference_time": 40.5,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.3881,
+        "Small_Vehicle": 0.0252,
+        "Roundabout": 0.9111
+      }
+    },
+    {
+      "filename": "P0454.png",
+      "miou": 0.4938140749108938,
+      "num_gt_objects": 175,
+      "num_sam_masks": 247,
+      "inference_time": 18.8,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.7449,
+        "Small_Vehicle": 0.3526
+      }
+    },
+    {
+      "filename": "P2294.png",
+      "miou": 0.3833246823783007,
+      "num_gt_objects": 4,
+      "num_sam_masks": 43,
+      "inference_time": 27.5,
+      "categories": [
+        "ship",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.2774,
+        "Harbor": 0.701
+      }
+    },
+    {
+      "filename": "P1560.png",
+      "miou": 0.44360835653497555,
+      "num_gt_objects": 4,
+      "num_sam_masks": 121,
+      "inference_time": 38.9,
+      "categories": [
+        "baseball_diamond",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.8757,
+        "Roundabout": 0.0115
+      }
+    },
+    {
+      "filename": "P1212.png",
+      "miou": 0.15876376687407298,
+      "num_gt_objects": 2,
+      "num_sam_masks": 3,
+      "inference_time": 49.0,
+      "categories": [
+        "ship"
+      ],
+      "per_category_miou": {
+        "ship": 0.1588
+      }
+    },
+    {
+      "filename": "P2733.png",
+      "miou": 0.0053528492836252,
+      "num_gt_objects": 837,
+      "num_sam_masks": 214,
+      "inference_time": 44.0,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "ship": 0.0886,
+        "storage_tank": 0.0459,
+        "Bridge": 0.7971,
+        "Large_Vehicle": 0.0032,
+        "Small_Vehicle": 0.0013
+      }
+    },
+    {
+      "filename": "P0130.png",
+      "miou": 0.16443075275111757,
+      "num_gt_objects": 90,
+      "num_sam_masks": 233,
+      "inference_time": 27.7,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "Ground_Track_Field",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.7039,
+        "tennis_court": 0.3142,
+        "Ground_Track_Field": 0.6877,
+        "Small_Vehicle": 0.0738,
+        "Swimming_pool": 0.0942,
+        "Soccer_ball_field": 0.6291
+      }
+    },
+    {
+      "filename": "P2082.png",
+      "miou": 0.29339298665250263,
+      "num_gt_objects": 307,
+      "num_sam_masks": 194,
+      "inference_time": 25.5,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.3349,
+        "Small_Vehicle": 0.1502
+      }
+    },
+    {
+      "filename": "P0683.png",
+      "miou": 0.043799112688302576,
+      "num_gt_objects": 300,
+      "num_sam_masks": 43,
+      "inference_time": 1086.7,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.6859,
+        "storage_tank": 0.0425,
+        "Large_Vehicle": 0.0021,
+        "Small_Vehicle": 0.0164,
+        "Harbor": 0.711
+      }
+    },
+    {
+      "filename": "P0654.png",
+      "miou": 0.7199350980234305,
+      "num_gt_objects": 30,
+      "num_sam_masks": 71,
+      "inference_time": 451.8,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.7897,
+        "Small_Vehicle": 0.5572
+      }
+    },
+    {
+      "filename": "P1210.png",
+      "miou": 0.0007730938906593222,
+      "num_gt_objects": 31,
+      "num_sam_masks": 16,
+      "inference_time": 62.7,
+      "categories": [
+        "ship",
+        "Bridge"
+      ],
+      "per_category_miou": {
+        "ship": 0.0008,
+        "Bridge": 0.0
+      }
+    },
+    {
+      "filename": "P2255.png",
+      "miou": 0.8073681485289717,
+      "num_gt_objects": 8,
+      "num_sam_masks": 179,
+      "inference_time": 1013.0,
+      "categories": [
+        "baseball_diamond",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.9227,
+        "Small_Vehicle": 0.0
+      }
+    },
+    {
+      "filename": "P2241.png",
+      "miou": 0.41022976685405105,
+      "num_gt_objects": 42,
+      "num_sam_masks": 149,
+      "inference_time": 31.3,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.8019,
+        "tennis_court": 0.8234,
+        "Large_Vehicle": 0.3898,
+        "Small_Vehicle": 0.1826,
+        "Swimming_pool": 0.8554
+      }
+    },
+    {
+      "filename": "P2645.png",
+      "miou": 0.06137565658522737,
+      "num_gt_objects": 1035,
+      "num_sam_masks": 180,
+      "inference_time": 24.7,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "Bridge",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.2368,
+        "storage_tank": 0.1828,
+        "Bridge": 0.0007,
+        "Large_Vehicle": 0.0006,
+        "Small_Vehicle": 0.0012,
+        "Harbor": 0.0394
+      }
+    },
+    {
+      "filename": "P1370.png",
+      "miou": 0.0011463330711712599,
+      "num_gt_objects": 6,
+      "num_sam_masks": 79,
+      "inference_time": 29.5,
+      "categories": [
+        "Bridge",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Bridge": 0.004,
+        "Roundabout": 0.0006
+      }
+    },
+    {
+      "filename": "P1371.png",
+      "miou": 0.28482995549025536,
+      "num_gt_objects": 4,
+      "num_sam_masks": 167,
+      "inference_time": 15.4,
+      "categories": [
+        "storage_tank"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.2848
+      }
+    },
+    {
+      "filename": "P2678.png",
+      "miou": 0.0800080288864239,
+      "num_gt_objects": 245,
+      "num_sam_masks": 151,
+      "inference_time": 70.0,
+      "categories": [
+        "ship",
+        "storage_tank",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.2266,
+        "storage_tank": 0.1103,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0038,
+        "Harbor": 0.3499
+      }
+    },
+    {
+      "filename": "P0047.png",
+      "miou": 0.058001500621593725,
+      "num_gt_objects": 132,
+      "num_sam_masks": 184,
+      "inference_time": 37.6,
+      "categories": [
+        "baseball_diamond",
+        "Ground_Track_Field",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.8523,
+        "Ground_Track_Field": 0.6744,
+        "Large_Vehicle": 0.1307,
+        "Small_Vehicle": 0.0257,
+        "Soccer_ball_field": 0.3302
+      }
+    },
+    {
+      "filename": "P0053.png",
+      "miou": 0.6027070752996191,
+      "num_gt_objects": 116,
+      "num_sam_masks": 266,
+      "inference_time": 49.0,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "ship": 0.7224,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.3352
+      }
+    },
+    {
+      "filename": "P1601.png",
+      "miou": 0.06724167388727002,
+      "num_gt_objects": 25,
+      "num_sam_masks": 158,
+      "inference_time": 57.7,
+      "categories": [
+        "storage_tank",
+        "Roundabout",
+        "plane"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.5363,
+        "Roundabout": 0.0,
+        "plane": 0.0034
+      }
+    },
+    {
+      "filename": "P2446.png",
+      "miou": 0.012628091259765982,
+      "num_gt_objects": 219,
+      "num_sam_masks": 138,
+      "inference_time": 45.7,
+      "categories": [
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Roundabout"
+      ],
+      "per_category_miou": {
+        "Large_Vehicle": 0.0078,
+        "Small_Vehicle": 0.001,
+        "Roundabout": 0.4216
+      }
+    },
+    {
+      "filename": "P1007.png",
+      "miou": 0.014193005945728402,
+      "num_gt_objects": 185,
+      "num_sam_masks": 38,
+      "inference_time": 43.9,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0204,
+        "Large_Vehicle": 0.0,
+        "Small_Vehicle": 0.0004,
+        "Swimming_pool": 0.0561,
+        "Harbor": 0.0134
+      }
+    },
+    {
+      "filename": "P0457.png",
+      "miou": 0.5682940837241391,
+      "num_gt_objects": 13,
+      "num_sam_masks": 80,
+      "inference_time": 61.0,
+      "categories": [
+        "baseball_diamond",
+        "tennis_court",
+        "basketball_court",
+        "Small_Vehicle"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.4716,
+        "tennis_court": 0.905,
+        "basketball_court": 0.9325,
+        "Small_Vehicle": 0.4052
+      }
+    },
+    {
+      "filename": "P1749.png",
+      "miou": 0.0,
+      "num_gt_objects": 5,
+      "num_sam_masks": 63,
+      "inference_time": 34.5,
+      "categories": [
+        "Bridge",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "Bridge": 0.0,
+        "Harbor": 0.0
+      }
+    },
+    {
+      "filename": "P0331.png",
+      "miou": 0.24450972022702513,
+      "num_gt_objects": 56,
+      "num_sam_masks": 128,
+      "inference_time": 57.6,
+      "categories": [
+        "ship",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.0424,
+        "Small_Vehicle": 0.1406,
+        "Swimming_pool": 0.4698,
+        "Harbor": 0.4821
+      }
+    },
+    {
+      "filename": "P2718.png",
+      "miou": 0.03189300411522634,
+      "num_gt_objects": 18,
+      "num_sam_masks": 124,
+      "inference_time": 22.7,
+      "categories": [
+        "storage_tank",
+        "Ground_Track_Field",
+        "Bridge",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.0,
+        "Ground_Track_Field": 0.0957,
+        "Bridge": 0.0,
+        "Soccer_ball_field": 0.0
+      }
+    },
+    {
+      "filename": "P1577.png",
+      "miou": 0.3479045451472789,
+      "num_gt_objects": 6,
+      "num_sam_masks": 218,
+      "inference_time": 35.8,
+      "categories": [
+        "baseball_diamond",
+        "Ground_Track_Field"
+      ],
+      "per_category_miou": {
+        "baseball_diamond": 0.2337,
+        "Ground_Track_Field": 0.919
+      }
+    },
+    {
+      "filename": "P2724.png",
+      "miou": 0.10982994469422513,
+      "num_gt_objects": 20,
+      "num_sam_masks": 182,
+      "inference_time": 25.5,
+      "categories": [
+        "storage_tank",
+        "Ground_Track_Field",
+        "Bridge",
+        "Roundabout",
+        "Soccer_ball_field"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.2721,
+        "Ground_Track_Field": 0.1576,
+        "Bridge": 0.0,
+        "Roundabout": 0.0,
+        "Soccer_ball_field": 0.0724
+      }
+    },
+    {
+      "filename": "P2042.png",
+      "miou": 0.5383341130855324,
+      "num_gt_objects": 17,
+      "num_sam_masks": 71,
+      "inference_time": 49.2,
+      "categories": [
+        "storage_tank",
+        "Large_Vehicle"
+      ],
+      "per_category_miou": {
+        "storage_tank": 0.9497,
+        "Large_Vehicle": 0.4835
+      }
+    },
+    {
+      "filename": "P0696.png",
+      "miou": 0.022301807220398633,
+      "num_gt_objects": 953,
+      "num_sam_masks": 135,
+      "inference_time": 77.2,
+      "categories": [
+        "ship",
+        "Large_Vehicle",
+        "Small_Vehicle",
+        "Swimming_pool",
+        "Harbor"
+      ],
+      "per_category_miou": {
+        "ship": 0.015,
+        "Large_Vehicle": 0.0281,
+        "Small_Vehicle": 0.0378,
+        "Swimming_pool": 0.1827,
+        "Harbor": 0.0707
       }
     }
   ]
