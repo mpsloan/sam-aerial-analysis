@@ -31,6 +31,10 @@ pip install -r requirements.txt
 
 Developed and ran locally on an Apple M1 Max MacBook Pro using PyTorch's MPS backend (`device = "mps"` in `sam_miou.py` and `generate_visualizations.py`). On a CUDA-capable machine, change `device` to `"cuda"` in both files.
 
+**NOTE:** SAM has a bug with their `mps` support. In order for their source to run on Mac you must open this file in your `.venv`: `.venv/src/segment-anything/segment_anything/automatic_mask_generator.py`
+1. Go to line 277: `in_points = torch.as_tensor(transformed_points, device=self.predictor.device)`
+2. Change line 277 to this: `in_points = torch.as_tensor(transformed_points.astype(np.float32), device=self.predictor.device)`
+
 ### 2. SAM Model Checkpoint
 
 Download the ViT-H checkpoint from Meta's [Segment Anything repository](https://github.com/facebookresearch/segment-anything#model-checkpoints):

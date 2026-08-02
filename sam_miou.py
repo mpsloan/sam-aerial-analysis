@@ -12,6 +12,8 @@ best-overlapping predicted mask. Overall mIoU, per-category mIoU,
 and per-image results are aggregated and written to
 miou_results.json.
 
+NOTE: Before running this file on Mac, see "1. Environment" section in README.md for an additional configuration step
+
 Usage:
     python sam_miou.py
 """
