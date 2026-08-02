@@ -69,7 +69,7 @@ python sam_miou.py
 ```
 Runs SAM automatic mask generation across the validation set and writes results to `miou_results.json`. Took ~23 hours locally on an M1 Max.
 
-**Generate a visualization for a specific image:**
+**Generate a visualization for a specific image (expected image directory is ../validation_dataset/images_v1/):**
 ```bash
 python generate_visualizations.py <filename> [output_path]
 # e.g. python generate_visualizations.py P1557.png figures/P1557.png
