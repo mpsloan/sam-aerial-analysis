@@ -1,0 +1,7 @@
+numpy==2.4.6
+opencv-python==4.13.0.92
+matplotlib==3.10.9
+torch==2.12.0
+torchvision==0.27.0
+jupyter==1.1.1
+-e git+https://github.com/facebookresearch/segment-anything.git@dca509fe793f601edb92606367a655c15ac00fdf#egg=segment_anything

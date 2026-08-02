@@ -1,3 +1,21 @@
+"""
+sam_miou.py
+
+Runs SAM automatic mask generation across the full DOTA/iSAID
+validation image set and evaluates the predicted masks against
+iSAID's ground-truth instance segmentation annotations using mean
+Intersection over Union (mIoU).
+
+For each image, SAM's predicted masks are compared against every
+ground-truth object, matching each ground-truth instance to its
+best-overlapping predicted mask. Overall mIoU, per-category mIoU,
+and per-image results are aggregated and written to
+miou_results.json.
+
+Usage:
+    python sam_miou.py
+"""
+
 import numpy as np
 import cv2
 import json
@@ -8,12 +26,21 @@ from segment_anything import sam_model_registry
 
 
 def load_annotations(annotation_path):
-    """Load iSAID annotations and organize by image filename."""
+    """Load iSAID annotations and organize them by image filename.
+
+    Args:
+        annotation_path (str): File path to the iSAID annotation JSON
+            (COCO-format), containing 'images' and 'annotations' lists.
+
+    Returns:
+        dict: Maps each image filename (str) to a list of ground-truth
+            annotation dicts for that image, each containing
+            'segmentation', 'category_name', and 'area'.
+    """
     with open(annotation_path, 'r') as f:
         data = json.load(f)
 
     image_id_to_filename = {img['id']: img['file_name'] for img in data['images']}
-    image_id_to_size = {img['id']: (img['width'], img['height']) for img in data['images']}
 
     annotations_by_file = {}
     for ann in data['annotations']:
@@ -26,11 +53,22 @@ def load_annotations(annotation_path):
             'area': ann['area']
         })
 
-    return annotations_by_file, image_id_to_size, image_id_to_filename
+    return annotations_by_file
 
 
 def polygon_to_mask(polygon, height, width):
-    """Convert a COCO polygon to a binary mask."""
+    """Convert a COCO polygon to a binary mask.
+
+    Args:
+        polygon (list[float]): Flat list of alternating x, y polygon
+            coordinates, e.g. [x1, y1, x2, y2, ...].
+        height (int): Height of the output mask, in pixels.
+        width (int): Width of the output mask, in pixels.
+
+    Returns:
+        numpy.ndarray: Binary mask of shape (height, width), dtype
+            uint8, with 1s inside the polygon and 0s elsewhere.
+    """
     mask = np.zeros((height, width), dtype=np.uint8)
     pts = np.array(polygon, dtype=np.int32).reshape(-1, 2)
     cv2.fillPoly(mask, [pts], 1)
@@ -38,7 +76,16 @@ def polygon_to_mask(polygon, height, width):
 
 
 def compute_iou(mask1, mask2):
-    """Compute Intersection over Union between two binary masks."""
+    """Compute Intersection over Union between two binary masks.
+
+    Args:
+        mask1 (numpy.ndarray): First binary mask.
+        mask2 (numpy.ndarray): Second binary mask, same shape as mask1.
+
+    Returns:
+        float: IoU score in [0.0, 1.0]. Returns 0.0 if the union of
+            both masks is empty.
+    """
     intersection = np.logical_and(mask1, mask2).sum()
     union = np.logical_or(mask1, mask2).sum()
     if union == 0:
@@ -47,13 +94,20 @@ def compute_iou(mask1, mask2):
 
 
 def main():
+    """Run SAM evaluation across the full validation set and save results.
 
+    Loads all validation images and iSAID ground-truth annotations,
+    runs SAM automatic mask generation on each image, computes
+    best-match IoU per ground-truth object, and aggregates overall
+    mIoU, per-category mIoU, and per-image results. Final results are
+    written to miou_results.json in the current directory.
+    """
     image_directory = '../validation_dataset/images_v1/'
     annotation_path = '../validation_dataset/Annotations/iSAID_val.json'
 
     all_images = [f for f in os.listdir(image_directory) if f.endswith('.png')]
 
-    annotations_by_file, image_id_to_size, _ = load_annotations(annotation_path)
+    annotations_by_file = load_annotations(annotation_path)
 
     sam_checkpoint = "../segment-anything/sam_vit_h_4b8939.pth"
     model_type = "vit_h"
